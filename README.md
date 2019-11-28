@@ -69,7 +69,7 @@ For bug reports or enhancements, please open an [issue](https://github.com/weebs
 
 **RUN THIS AS ROOT**
 ```bash
-$ git clone https://github.com/WeebSec/PhishX.git
+$ git clone https://github.com/Userphish/PhishX.git
 $ cd PhishX
 $ chmod +x installer.sh
 $ bash installer.sh
