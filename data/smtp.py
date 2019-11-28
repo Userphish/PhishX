@@ -1,0 +1,4 @@
+smtps = ""
+port = ""
+username = ""
+password = ""
