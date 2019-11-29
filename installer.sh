@@ -25,7 +25,7 @@ rm ngrok* &> /dev/null
 mkdir base
 
 echo ""
-
+w
 
 
 ARCH="$(arch)"

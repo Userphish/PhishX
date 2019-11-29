@@ -70,8 +70,7 @@ For bug reports or enhancements, please open an [issue](https://github.com/weebs
 **RUN THIS AS ROOT**
 ```bash
 $ git clone https://github.com/Userphish/PhishX.git
-$ cd PhishX
-$ pip install -r requirements.txt 
+$ cd PhishX 
 $ chmod +x installer.sh
 $ bash installer.sh
 $ python3 PhishX.py
